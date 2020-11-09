@@ -1,0 +1,25 @@
+{
+  "name": "dropdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd client && npm start\" \"cd server && node index.js\"",
+    "install-deps": "cd client && npm install && cd ../server && npm install && cd .. && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denisdubovikov96/dropdown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Denisdubovikov96/dropdown/issues"
+  },
+  "homepage": "https://github.com/Denisdubovikov96/dropdown#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1"
+  }
+}

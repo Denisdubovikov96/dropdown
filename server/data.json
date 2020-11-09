@@ -1,0 +1,2502 @@
+[
+    {
+        "country_code": "AW",
+        "country_name": "Aruba",
+        "metrics": {
+            "metric_1": 9,
+            "metric_2": 2,
+            "metric_3": 3,
+            "metric_4": 682
+        }
+    },
+    {
+        "country_code": "AF",
+        "country_name": "Afghanistan",
+        "metrics": {
+            "metric_1": 9,
+            "metric_2": 19,
+            "metric_3": 261,
+            "metric_4": 575.4
+        }
+    },
+    {
+        "country_code": "AO",
+        "country_name": "Angola",
+        "metrics": {
+            "metric_1": 0,
+            "metric_2": 34,
+            "metric_3": 304,
+            "metric_4": 1095.6
+        }
+    },
+    {
+        "country_code": "AI",
+        "country_name": "Anguilla",
+        "metrics": {
+            "metric_1": 2.75,
+            "metric_2": 55.5,
+            "metric_3": 1467,
+            "metric_4": 999
+        }
+    },
+    {
+        "country_code": "AX",
+        "country_name": "Åland Islands",
+        "metrics": {
+            "metric_1": 2.8,
+            "metric_2": 112,
+            "metric_3": 1158,
+            "metric_4": 461.3
+        }
+    },
+    {
+        "country_code": "AL",
+        "country_name": "Albania",
+        "metrics": {
+            "metric_1": 1.33,
+            "metric_2": 120,
+            "metric_3": 471,
+            "metric_4": 302.6
+        }
+    },
+    {
+        "country_code": "AD",
+        "country_name": "Andorra",
+        "metrics": {
+            "metric_1": 5.14,
+            "metric_2": 131,
+            "metric_3": 4734,
+            "metric_4": 101.1
+        }
+    },
+    {
+        "country_code": "AE",
+        "country_name": "United Arab Emirates",
+        "metrics": {
+            "metric_1": 6,
+            "metric_2": 159,
+            "metric_3": 6444,
+            "metric_4": 375.8
+        }
+    },
+    {
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "metrics": {
+            "metric_1": 5.56,
+            "metric_2": 163,
+            "metric_3": 3565,
+            "metric_4": 237.5
+        }
+    },
+    {
+        "country_code": "AM",
+        "country_name": "Armenia",
+        "metrics": {
+            "metric_1": 8,
+            "metric_2": 232,
+            "metric_3": 2895,
+            "metric_4": 255.2
+        }
+    },
+    {
+        "country_code": "AS",
+        "country_name": "American Samoa",
+        "metrics": {
+            "metric_1": 8.09,
+            "metric_2": 262,
+            "metric_3": 4313,
+            "metric_4": 185.6
+        }
+    },
+    {
+        "country_code": "AQ",
+        "country_name": "Antarctica",
+        "metrics": {
+            "metric_1": 9.75,
+            "metric_2": 224.5,
+            "metric_3": 8414,
+            "metric_4": 113
+        }
+    },
+    {
+        "country_code": "TF",
+        "country_name": "French Southern and Antarctic Lands",
+        "metrics": {
+            "metric_1": 10.46,
+            "metric_2": 336,
+            "metric_3": 804,
+            "metric_4": 389.8
+        }
+    },
+    {
+        "country_code": "AG",
+        "country_name": "Antigua and Barbuda",
+        "metrics": {
+            "metric_1": 12.36,
+            "metric_2": 284,
+            "metric_3": 7200,
+            "metric_4": 238
+        }
+    },
+    {
+        "country_code": "AU",
+        "country_name": "Australia",
+        "metrics": {
+            "metric_1": 13.27,
+            "metric_2": 369,
+            "metric_3": 809,
+            "metric_4": 704
+        }
+    },
+    {
+        "country_code": "AT",
+        "country_name": "Austria",
+        "metrics": {
+            "metric_1": 14.5,
+            "metric_2": 281,
+            "metric_3": 7788,
+            "metric_4": 462.8
+        }
+    },
+    {
+        "country_code": "AZ",
+        "country_name": "Azerbaijan",
+        "metrics": {
+            "metric_1": 15,
+            "metric_2": 311,
+            "metric_3": 7889,
+            "metric_4": 2.3
+        }
+    },
+    {
+        "country_code": "BI",
+        "country_name": "Burundi",
+        "metrics": {
+            "metric_1": 15.72,
+            "metric_2": 470,
+            "metric_3": 1826,
+            "metric_4": 557
+        }
+    },
+    {
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "metrics": {
+            "metric_1": 17.05,
+            "metric_2": 433,
+            "metric_3": 4491,
+            "metric_4": 1015
+        }
+    },
+    {
+        "country_code": "BJ",
+        "country_name": "Benin",
+        "metrics": {
+            "metric_1": 17.9,
+            "metric_2": 380.5,
+            "metric_3": 12230,
+            "metric_4": 1151.4
+        }
+    },
+    {
+        "country_code": "BF",
+        "country_name": "Burkina Faso",
+        "metrics": {
+            "metric_1": 19.14,
+            "metric_2": 504,
+            "metric_3": 14702,
+            "metric_4": 1113
+        }
+    },
+    {
+        "country_code": "BD",
+        "country_name": "Bangladesh",
+        "metrics": {
+            "metric_1": 20.27,
+            "metric_2": 544,
+            "metric_3": 10968,
+            "metric_4": 1205.6
+        }
+    },
+    {
+        "country_code": "BG",
+        "country_name": "Bulgaria",
+        "metrics": {
+            "metric_1": 21.65,
+            "metric_2": 488,
+            "metric_3": 12729,
+            "metric_4": 1228.5
+        }
+    },
+    {
+        "country_code": "BH",
+        "country_name": "Bahrain",
+        "metrics": {
+            "metric_1": 22.63,
+            "metric_2": 529,
+            "metric_3": 13029,
+            "metric_4": 1800
+        }
+    },
+    {
+        "country_code": "BS",
+        "country_name": "Bahamas",
+        "metrics": {
+            "metric_1": 23.76,
+            "metric_2": 677,
+            "metric_3": 22086,
+            "metric_4": 1659.6
+        }
+    },
+    {
+        "country_code": "BA",
+        "country_name": "Bosnia and Herzegovina",
+        "metrics": {
+            "metric_1": 24.35,
+            "metric_2": 507.5,
+            "metric_3": 13554,
+            "metric_4": 2508.8
+        }
+    },
+    {
+        "country_code": "BL",
+        "country_name": "Saint Barthélemy",
+        "metrics": {
+            "metric_1": 25.15,
+            "metric_2": 699,
+            "metric_3": 11211,
+            "metric_4": 2264.4
+        }
+    },
+    {
+        "country_code": "SH",
+        "country_name": "Saint Helena, Ascension and Tristan da Cunha",
+        "metrics": {
+            "metric_1": 26.61,
+            "metric_2": 553.5,
+            "metric_3": 14073,
+            "metric_4": 1722
+        }
+    },
+    {
+        "country_code": "BY",
+        "country_name": "Belarus",
+        "metrics": {
+            "metric_1": 27.38,
+            "metric_2": 740,
+            "metric_3": 2054,
+            "metric_4": 1414
+        }
+    },
+    {
+        "country_code": "BZ",
+        "country_name": "Belize",
+        "metrics": {
+            "metric_1": 28.47,
+            "metric_2": 575,
+            "metric_3": 2340,
+            "metric_4": 2085.6
+        }
+    },
+    {
+        "country_code": "BM",
+        "country_name": "Bermuda",
+        "metrics": {
+            "metric_1": 29.74,
+            "metric_2": 772,
+            "metric_3": 19707,
+            "metric_4": 2254.2
+        }
+    },
+    {
+        "country_code": "BO",
+        "country_name": "Bolivia",
+        "metrics": {
+            "metric_1": 30.53,
+            "metric_2": 739,
+            "metric_3": 2740,
+            "metric_4": 3048.6
+        }
+    },
+    {
+        "country_code": "BQ",
+        "country_name": "Caribbean Netherlands",
+        "metrics": {
+            "metric_1": 31.58,
+            "metric_2": 616,
+            "metric_3": 9032,
+            "metric_4": 1696.9
+        }
+    },
+    {
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "metrics": {
+            "metric_1": 32.47,
+            "metric_2": 636.5,
+            "metric_3": 23229,
+            "metric_4": 1940
+        }
+    },
+    {
+        "country_code": "BB",
+        "country_name": "Barbados",
+        "metrics": {
+            "metric_1": 33.63,
+            "metric_2": 911,
+            "metric_3": 27389,
+            "metric_4": 3577.3
+        }
+    },
+    {
+        "country_code": "BN",
+        "country_name": "Brunei",
+        "metrics": {
+            "metric_1": 34.64,
+            "metric_2": 798,
+            "metric_3": 30762,
+            "metric_4": 3381.8
+        }
+    },
+    {
+        "country_code": "BT",
+        "country_name": "Bhutan",
+        "metrics": {
+            "metric_1": 35.35,
+            "metric_2": 990,
+            "metric_3": 19017,
+            "metric_4": 1761
+        }
+    },
+    {
+        "country_code": "BV",
+        "country_name": "Bouvet Island",
+        "metrics": {
+            "metric_1": 36.79,
+            "metric_2": 809,
+            "metric_3": 25472,
+            "metric_4": 3725.8
+        }
+    },
+    {
+        "country_code": "BW",
+        "country_name": "Botswana",
+        "metrics": {
+            "metric_1": 37.67,
+            "metric_2": 942,
+            "metric_3": 8611,
+            "metric_4": 3123
+        }
+    },
+    {
+        "country_code": "CF",
+        "country_name": "Central African Republic",
+        "metrics": {
+            "metric_1": 38.78,
+            "metric_2": 946.5,
+            "metric_3": 402,
+            "metric_4": 2593.2
+        }
+    },
+    {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "metrics": {
+            "metric_1": 39.68,
+            "metric_2": 878,
+            "metric_3": 30985,
+            "metric_4": 3143.7
+        }
+    },
+    {
+        "country_code": "CC",
+        "country_name": "Cocos (Keeling) Islands",
+        "metrics": {
+            "metric_1": 40.76,
+            "metric_2": 1118.5,
+            "metric_3": 21416,
+            "metric_4": 3652.4
+        }
+    },
+    {
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "metrics": {
+            "metric_1": 41.74,
+            "metric_2": 838,
+            "metric_3": 7674,
+            "metric_4": 2703
+        }
+    },
+    {
+        "country_code": "CL",
+        "country_name": "Chile",
+        "metrics": {
+            "metric_1": 42.73,
+            "metric_2": 923.5,
+            "metric_3": 27800,
+            "metric_4": 4016
+        }
+    },
+    {
+        "country_code": "CN",
+        "country_name": "China",
+        "metrics": {
+            "metric_1": 43.53,
+            "metric_2": 1249,
+            "metric_3": 2490,
+            "metric_4": 5482.6
+        }
+    },
+    {
+        "country_code": "CI",
+        "country_name": "Ivory Coast",
+        "metrics": {
+            "metric_1": 44.63,
+            "metric_2": 1026,
+            "metric_3": 28884,
+            "metric_4": 3294.2
+        }
+    },
+    {
+        "country_code": "CM",
+        "country_name": "Cameroon",
+        "metrics": {
+            "metric_1": 45.72,
+            "metric_2": 935,
+            "metric_3": 38220,
+            "metric_4": 4852.1
+        }
+    },
+    {
+        "country_code": "CD",
+        "country_name": "DR Congo",
+        "metrics": {
+            "metric_1": 46.85,
+            "metric_2": 1006.5,
+            "metric_3": 7555,
+            "metric_4": 4509.4
+        }
+    },
+    {
+        "country_code": "CG",
+        "country_name": "Republic of the Congo",
+        "metrics": {
+            "metric_1": 47.82,
+            "metric_2": 1076,
+            "metric_3": 5601,
+            "metric_4": 4322.5
+        }
+    },
+    {
+        "country_code": "CK",
+        "country_name": "Cook Islands",
+        "metrics": {
+            "metric_1": 48.82,
+            "metric_2": 1269,
+            "metric_3": 31333,
+            "metric_4": 5103
+        }
+    },
+    {
+        "country_code": "CO",
+        "country_name": "Colombia",
+        "metrics": {
+            "metric_1": 49.55,
+            "metric_2": 1022,
+            "metric_3": 9788,
+            "metric_4": 3754.1
+        }
+    },
+    {
+        "country_code": "KM",
+        "country_name": "Comoros",
+        "metrics": {
+            "metric_1": 50.69,
+            "metric_2": 1421,
+            "metric_3": 29571,
+            "metric_4": 4320.4
+        }
+    },
+    {
+        "country_code": "CV",
+        "country_name": "Cape Verde",
+        "metrics": {
+            "metric_1": 51.85,
+            "metric_2": 1115,
+            "metric_3": 31812,
+            "metric_4": 4402.5
+        }
+    },
+    {
+        "country_code": "CR",
+        "country_name": "Costa Rica",
+        "metrics": {
+            "metric_1": 52.7,
+            "metric_2": 1316,
+            "metric_3": 36125,
+            "metric_4": 5101
+        }
+    },
+    {
+        "country_code": "CU",
+        "country_name": "Cuba",
+        "metrics": {
+            "metric_1": 53.85,
+            "metric_2": 1025,
+            "metric_3": 50913,
+            "metric_4": 3285.2
+        }
+    },
+    {
+        "country_code": "CW",
+        "country_name": "Curaçao",
+        "metrics": {
+            "metric_1": 54.75,
+            "metric_2": 1148,
+            "metric_3": 22153,
+            "metric_4": 5445.8
+        }
+    },
+    {
+        "country_code": "CX",
+        "country_name": "Christmas Island",
+        "metrics": {
+            "metric_1": 55.6,
+            "metric_2": 1113,
+            "metric_3": 48493,
+            "metric_4": 5784.2
+        }
+    },
+    {
+        "country_code": "KY",
+        "country_name": "Cayman Islands",
+        "metrics": {
+            "metric_1": 56.83,
+            "metric_2": 1623.5,
+            "metric_3": 5601,
+            "metric_4": 3453.6
+        }
+    },
+    {
+        "country_code": "CY",
+        "country_name": "Cyprus",
+        "metrics": {
+            "metric_1": 57.88,
+            "metric_2": 1617,
+            "metric_3": 47139,
+            "metric_4": 6143
+        }
+    },
+    {
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "metrics": {
+            "metric_1": 58.7,
+            "metric_2": 1383.5,
+            "metric_3": 46533,
+            "metric_4": 4549.6
+        }
+    },
+    {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "metrics": {
+            "metric_1": 59.74,
+            "metric_2": 1706,
+            "metric_3": 43077,
+            "metric_4": 4098.3
+        }
+    },
+    {
+        "country_code": "DJ",
+        "country_name": "Djibouti",
+        "metrics": {
+            "metric_1": 60.77,
+            "metric_2": 1461,
+            "metric_3": 16223,
+            "metric_4": 6860.4
+        }
+    },
+    {
+        "country_code": "DM",
+        "country_name": "Dominica",
+        "metrics": {
+            "metric_1": 61.65,
+            "metric_2": 1550,
+            "metric_3": 49836,
+            "metric_4": 5012
+        }
+    },
+    {
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "metrics": {
+            "metric_1": 62.66,
+            "metric_2": 1442,
+            "metric_3": 37974,
+            "metric_4": 6430
+        }
+    },
+    {
+        "country_code": "DO",
+        "country_name": "Dominican Republic",
+        "metrics": {
+            "metric_1": 63.83,
+            "metric_2": 1372,
+            "metric_3": 5547,
+            "metric_4": 7363.6
+        }
+    },
+    {
+        "country_code": "DZ",
+        "country_name": "Algeria",
+        "metrics": {
+            "metric_1": 64.7,
+            "metric_2": 1394.5,
+            "metric_3": 51660,
+            "metric_4": 6123
+        }
+    },
+    {
+        "country_code": "EC",
+        "country_name": "Ecuador",
+        "metrics": {
+            "metric_1": 65.88,
+            "metric_2": 1872,
+            "metric_3": 21036,
+            "metric_4": 4681.9
+        }
+    },
+    {
+        "country_code": "EG",
+        "country_name": "Egypt",
+        "metrics": {
+            "metric_1": 66.93,
+            "metric_2": 1669,
+            "metric_3": 6210,
+            "metric_4": 8200.8
+        }
+    },
+    {
+        "country_code": "ER",
+        "country_name": "Eritrea",
+        "metrics": {
+            "metric_1": 67.75,
+            "metric_2": 1868,
+            "metric_3": 40377,
+            "metric_4": 6006
+        }
+    },
+    {
+        "country_code": "EH",
+        "country_name": "Western Sahara",
+        "metrics": {
+            "metric_1": 68.66,
+            "metric_2": 1515,
+            "metric_3": 2058,
+            "metric_4": 4750.6
+        }
+    },
+    {
+        "country_code": "ES",
+        "country_name": "Spain",
+        "metrics": {
+            "metric_1": 69.7,
+            "metric_2": 1426,
+            "metric_3": 1966,
+            "metric_4": 8762.4
+        }
+    },
+    {
+        "country_code": "EE",
+        "country_name": "Estonia",
+        "metrics": {
+            "metric_1": 70.9,
+            "metric_2": 1561,
+            "metric_3": 47351,
+            "metric_4": 7272.8
+        }
+    },
+    {
+        "country_code": "ET",
+        "country_name": "Ethiopia",
+        "metrics": {
+            "metric_1": 71.7,
+            "metric_2": 1719,
+            "metric_3": 24897,
+            "metric_4": 8618.4
+        }
+    },
+    {
+        "country_code": "FI",
+        "country_name": "Finland",
+        "metrics": {
+            "metric_1": 72.78,
+            "metric_2": 1453,
+            "metric_3": 4654,
+            "metric_4": 8963
+        }
+    },
+    {
+        "country_code": "FJ",
+        "country_name": "Fiji",
+        "metrics": {
+            "metric_1": 73.87,
+            "metric_2": 1660,
+            "metric_3": 30038,
+            "metric_4": 5808.6
+        }
+    },
+    {
+        "country_code": "FK",
+        "country_name": "Falkland Islands",
+        "metrics": {
+            "metric_1": 74.84,
+            "metric_2": 2021,
+            "metric_3": 45132,
+            "metric_4": 6695
+        }
+    },
+    {
+        "country_code": "FR",
+        "country_name": "France",
+        "metrics": {
+            "metric_1": 75.78,
+            "metric_2": 1515,
+            "metric_3": 47558,
+            "metric_4": 7653.9
+        }
+    },
+    {
+        "country_code": "FO",
+        "country_name": "Faroe Islands",
+        "metrics": {
+            "metric_1": 76.82,
+            "metric_2": 2148,
+            "metric_3": 34721,
+            "metric_4": 6924.2
+        }
+    },
+    {
+        "country_code": "FM",
+        "country_name": "Micronesia",
+        "metrics": {
+            "metric_1": 77.86,
+            "metric_2": 1871,
+            "metric_3": 10905,
+            "metric_4": 8229
+        }
+    },
+    {
+        "country_code": "GA",
+        "country_name": "Gabon",
+        "metrics": {
+            "metric_1": 78.75,
+            "metric_2": 2088.5,
+            "metric_3": 2473,
+            "metric_4": 7484.2
+        }
+    },
+    {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "metrics": {
+            "metric_1": 79.91,
+            "metric_2": 2032,
+            "metric_3": 58877,
+            "metric_4": 6957.9
+        }
+    },
+    {
+        "country_code": "GE",
+        "country_name": "Georgia",
+        "metrics": {
+            "metric_1": 80.79,
+            "metric_2": 1613,
+            "metric_3": 34320,
+            "metric_4": 5273.6
+        }
+    },
+    {
+        "country_code": "GG",
+        "country_name": "Guernsey",
+        "metrics": {
+            "metric_1": 81.77,
+            "metric_2": 2290,
+            "metric_3": 39014,
+            "metric_4": 7013.2
+        }
+    },
+    {
+        "country_code": "GH",
+        "country_name": "Ghana",
+        "metrics": {
+            "metric_1": 82.87,
+            "metric_2": 2234,
+            "metric_3": 6655,
+            "metric_4": 10377
+        }
+    },
+    {
+        "country_code": "GI",
+        "country_name": "Gibraltar",
+        "metrics": {
+            "metric_1": 83.94,
+            "metric_2": 2012,
+            "metric_3": 11589,
+            "metric_4": 10491.4
+        }
+    },
+    {
+        "country_code": "GN",
+        "country_name": "Guinea",
+        "metrics": {
+            "metric_1": 84.77,
+            "metric_2": 1700,
+            "metric_3": 59819,
+            "metric_4": 5390.8
+        }
+    },
+    {
+        "country_code": "GP",
+        "country_name": "Guadeloupe",
+        "metrics": {
+            "metric_1": 85.79,
+            "metric_2": 2322,
+            "metric_3": 47273,
+            "metric_4": 6941.6
+        }
+    },
+    {
+        "country_code": "GM",
+        "country_name": "Gambia",
+        "metrics": {
+            "metric_1": 86.93,
+            "metric_2": 1737,
+            "metric_3": 39123,
+            "metric_4": 10524.6
+        }
+    },
+    {
+        "country_code": "GW",
+        "country_name": "Guinea-Bissau",
+        "metrics": {
+            "metric_1": 87.79,
+            "metric_2": 2331,
+            "metric_3": 70,
+            "metric_4": 7477
+        }
+    },
+    {
+        "country_code": "GQ",
+        "country_name": "Equatorial Guinea",
+        "metrics": {
+            "metric_1": 88.9,
+            "metric_2": 2264.5,
+            "metric_3": 8345,
+            "metric_4": 5916.6
+        }
+    },
+    {
+        "country_code": "GR",
+        "country_name": "Greece",
+        "metrics": {
+            "metric_1": 89.93,
+            "metric_2": 1882,
+            "metric_3": 5955,
+            "metric_4": 5744.9
+        }
+    },
+    {
+        "country_code": "GD",
+        "country_name": "Grenada",
+        "metrics": {
+            "metric_1": 90.78,
+            "metric_2": 2362,
+            "metric_3": 65605,
+            "metric_4": 7311.6
+        }
+    },
+    {
+        "country_code": "GL",
+        "country_name": "Greenland",
+        "metrics": {
+            "metric_1": 91.78,
+            "metric_2": 2570,
+            "metric_3": 65296,
+            "metric_4": 9049.5
+        }
+    },
+    {
+        "country_code": "GT",
+        "country_name": "Guatemala",
+        "metrics": {
+            "metric_1": 92.76,
+            "metric_2": 2368.5,
+            "metric_3": 10308,
+            "metric_4": 6884
+        }
+    },
+    {
+        "country_code": "GF",
+        "country_name": "French Guiana",
+        "metrics": {
+            "metric_1": 93.85,
+            "metric_2": 2675,
+            "metric_3": 12666,
+            "metric_4": 6132.3
+        }
+    },
+    {
+        "country_code": "GU",
+        "country_name": "Guam",
+        "metrics": {
+            "metric_1": 94.76,
+            "metric_2": 2280,
+            "metric_3": 58419,
+            "metric_4": 8921.8
+        }
+    },
+    {
+        "country_code": "GY",
+        "country_name": "Guyana",
+        "metrics": {
+            "metric_1": 95.91,
+            "metric_2": 2304,
+            "metric_3": 7410,
+            "metric_4": 9752.4
+        }
+    },
+    {
+        "country_code": "HK",
+        "country_name": "Hong Kong",
+        "metrics": {
+            "metric_1": 96.82,
+            "metric_2": 1938,
+            "metric_3": 67697,
+            "metric_4": 7518
+        }
+    },
+    {
+        "country_code": "HM",
+        "country_name": "Heard Island and McDonald Islands",
+        "metrics": {
+            "metric_1": 97.86,
+            "metric_2": 2099,
+            "metric_3": 89854,
+            "metric_4": 11696.5
+        }
+    },
+    {
+        "country_code": "HN",
+        "country_name": "Honduras",
+        "metrics": {
+            "metric_1": 98.91,
+            "metric_2": 2416.5,
+            "metric_3": 41070,
+            "metric_4": 12572.4
+        }
+    },
+    {
+        "country_code": "HR",
+        "country_name": "Croatia",
+        "metrics": {
+            "metric_1": 99.9,
+            "metric_2": 1993,
+            "metric_3": 4015,
+            "metric_4": 11832.9
+        }
+    },
+    {
+        "country_code": "HT",
+        "country_name": "Haiti",
+        "metrics": {
+            "metric_1": 100.78,
+            "metric_2": 2314,
+            "metric_3": 8582,
+            "metric_4": 7266.4
+        }
+    },
+    {
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "metrics": {
+            "metric_1": 101.92,
+            "metric_2": 2138,
+            "metric_3": 3657,
+            "metric_4": 7582
+        }
+    },
+    {
+        "country_code": "ID",
+        "country_name": "Indonesia",
+        "metrics": {
+            "metric_1": 102.82,
+            "metric_2": 2317.5,
+            "metric_3": 84233,
+            "metric_4": 6884
+        }
+    },
+    {
+        "country_code": "IM",
+        "country_name": "Isle of Man",
+        "metrics": {
+            "metric_1": 103.8,
+            "metric_2": 2339,
+            "metric_3": 38771,
+            "metric_4": 6762.9
+        }
+    },
+    {
+        "country_code": "IN",
+        "country_name": "India",
+        "metrics": {
+            "metric_1": 104.78,
+            "metric_2": 2252.5,
+            "metric_3": 49638,
+            "metric_4": 10808.6
+        }
+    },
+    {
+        "country_code": "IO",
+        "country_name": "British Indian Ocean Territory",
+        "metrics": {
+            "metric_1": 105.84,
+            "metric_2": 2489,
+            "metric_3": 3949,
+            "metric_4": 9067.3
+        }
+    },
+    {
+        "country_code": "IE",
+        "country_name": "Ireland",
+        "metrics": {
+            "metric_1": 106.82,
+            "metric_2": 2347,
+            "metric_3": 106129,
+            "metric_4": 6633.4
+        }
+    },
+    {
+        "country_code": "IR",
+        "country_name": "Iran",
+        "metrics": {
+            "metric_1": 107.84,
+            "metric_2": 2531,
+            "metric_3": 32703,
+            "metric_4": 13926.5
+        }
+    },
+    {
+        "country_code": "IQ",
+        "country_name": "Iraq",
+        "metrics": {
+            "metric_1": 108.95,
+            "metric_2": 2887.5,
+            "metric_3": 61470,
+            "metric_4": 8279.6
+        }
+    },
+    {
+        "country_code": "IS",
+        "country_name": "Iceland",
+        "metrics": {
+            "metric_1": 109.83,
+            "metric_2": 2145,
+            "metric_3": 38821,
+            "metric_4": 7035.4
+        }
+    },
+    {
+        "country_code": "IL",
+        "country_name": "Israel",
+        "metrics": {
+            "metric_1": 110.89,
+            "metric_2": 2214,
+            "metric_3": 7761,
+            "metric_4": 13447
+        }
+    },
+    {
+        "country_code": "IT",
+        "country_name": "Italy",
+        "metrics": {
+            "metric_1": 111.82,
+            "metric_2": 2512,
+            "metric_3": 103909,
+            "metric_4": 14328.1
+        }
+    },
+    {
+        "country_code": "JM",
+        "country_name": "Jamaica",
+        "metrics": {
+            "metric_1": 112.92,
+            "metric_2": 2198.5,
+            "metric_3": 14559,
+            "metric_4": 12301
+        }
+    },
+    {
+        "country_code": "JE",
+        "country_name": "Jersey",
+        "metrics": {
+            "metric_1": 113.96,
+            "metric_2": 2730,
+            "metric_3": 71589,
+            "metric_4": 14250
+        }
+    },
+    {
+        "country_code": "JO",
+        "country_name": "Jordan",
+        "metrics": {
+            "metric_1": 114.95,
+            "metric_2": 2640,
+            "metric_3": 113042,
+            "metric_4": 9337
+        }
+    },
+    {
+        "country_code": "JP",
+        "country_name": "Japan",
+        "metrics": {
+            "metric_1": 115.92,
+            "metric_2": 3299,
+            "metric_3": 73981,
+            "metric_4": 12695.3
+        }
+    },
+    {
+        "country_code": "KZ",
+        "country_name": "Kazakhstan",
+        "metrics": {
+            "metric_1": 116.96,
+            "metric_2": 3033,
+            "metric_3": 83988,
+            "metric_4": 12960
+        }
+    },
+    {
+        "country_code": "KE",
+        "country_name": "Kenya",
+        "metrics": {
+            "metric_1": 117.81,
+            "metric_2": 2651,
+            "metric_3": 71738,
+            "metric_4": 8555
+        }
+    },
+    {
+        "country_code": "KG",
+        "country_name": "Kyrgyzstan",
+        "metrics": {
+            "metric_1": 118.83,
+            "metric_2": 2491,
+            "metric_3": 8931,
+            "metric_4": 15698.2
+        }
+    },
+    {
+        "country_code": "KH",
+        "country_name": "Cambodia",
+        "metrics": {
+            "metric_1": 119.81,
+            "metric_2": 2877,
+            "metric_3": 2871,
+            "metric_4": 10909.2
+        }
+    },
+    {
+        "country_code": "KI",
+        "country_name": "Kiribati",
+        "metrics": {
+            "metric_1": 120.89,
+            "metric_2": 3322.5,
+            "metric_3": 76460,
+            "metric_4": 15092.6
+        }
+    },
+    {
+        "country_code": "KN",
+        "country_name": "Saint Kitts and Nevis",
+        "metrics": {
+            "metric_1": 121.85,
+            "metric_2": 2683,
+            "metric_3": 12173,
+            "metric_4": 12562.4
+        }
+    },
+    {
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "metrics": {
+            "metric_1": 122.85,
+            "metric_2": 2579,
+            "metric_3": 60870,
+            "metric_4": 13465
+        }
+    },
+    {
+        "country_code": "XK",
+        "country_name": "Kosovo",
+        "metrics": {
+            "metric_1": 123.96,
+            "metric_2": 3222,
+            "metric_3": 64099,
+            "metric_4": 8132.9
+        }
+    },
+    {
+        "country_code": "KW",
+        "country_name": "Kuwait",
+        "metrics": {
+            "metric_1": 124.86,
+            "metric_2": 2494,
+            "metric_3": 3765,
+            "metric_4": 15231.6
+        }
+    },
+    {
+        "country_code": "LA",
+        "country_name": "Laos",
+        "metrics": {
+            "metric_1": 125.83,
+            "metric_2": 3268,
+            "metric_3": 99894,
+            "metric_4": 14832.7
+        }
+    },
+    {
+        "country_code": "LB",
+        "country_name": "Lebanon",
+        "metrics": {
+            "metric_1": 126.92,
+            "metric_2": 2596.5,
+            "metric_3": 34284,
+            "metric_4": 10902.2
+        }
+    },
+    {
+        "country_code": "LR",
+        "country_name": "Liberia",
+        "metrics": {
+            "metric_1": 127.87,
+            "metric_2": 3066,
+            "metric_3": 105969,
+            "metric_4": 15446.5
+        }
+    },
+    {
+        "country_code": "LY",
+        "country_name": "Libya",
+        "metrics": {
+            "metric_1": 128.86,
+            "metric_2": 3027.5,
+            "metric_3": 4665,
+            "metric_4": 12814.8
+        }
+    },
+    {
+        "country_code": "LC",
+        "country_name": "Saint Lucia",
+        "metrics": {
+            "metric_1": 129.89,
+            "metric_2": 3436,
+            "metric_3": 30656,
+            "metric_4": 15894.8
+        }
+    },
+    {
+        "country_code": "LI",
+        "country_name": "Liechtenstein",
+        "metrics": {
+            "metric_1": 130.86,
+            "metric_2": 3464.5,
+            "metric_3": 109108,
+            "metric_4": 16754.2
+        }
+    },
+    {
+        "country_code": "LK",
+        "country_name": "Sri Lanka",
+        "metrics": {
+            "metric_1": 131.83,
+            "metric_2": 2567,
+            "metric_3": 93963,
+            "metric_4": 9656.2
+        }
+    },
+    {
+        "country_code": "LS",
+        "country_name": "Lesotho",
+        "metrics": {
+            "metric_1": 132.93,
+            "metric_2": 2591.5,
+            "metric_3": 77391,
+            "metric_4": 8801
+        }
+    },
+    {
+        "country_code": "LT",
+        "country_name": "Lithuania",
+        "metrics": {
+            "metric_1": 133.9,
+            "metric_2": 2943,
+            "metric_3": 32535,
+            "metric_4": 12547.9
+        }
+    },
+    {
+        "country_code": "LU",
+        "country_name": "Luxembourg",
+        "metrics": {
+            "metric_1": 134.85,
+            "metric_2": 2759.5,
+            "metric_3": 98952,
+            "metric_4": 12124.8
+        }
+    },
+    {
+        "country_code": "LV",
+        "country_name": "Latvia",
+        "metrics": {
+            "metric_1": 135.92,
+            "metric_2": 3460,
+            "metric_3": 18626,
+            "metric_4": 17427.1
+        }
+    },
+    {
+        "country_code": "MO",
+        "country_name": "Macau",
+        "metrics": {
+            "metric_1": 136.92,
+            "metric_2": 3355.5,
+            "metric_3": 67672,
+            "metric_4": 14944.2
+        }
+    },
+    {
+        "country_code": "MF",
+        "country_name": "Saint Martin",
+        "metrics": {
+            "metric_1": 137.93,
+            "metric_2": 3311,
+            "metric_3": 94236,
+            "metric_4": 11855
+        }
+    },
+    {
+        "country_code": "MA",
+        "country_name": "Morocco",
+        "metrics": {
+            "metric_1": 138.89,
+            "metric_2": 2705.5,
+            "metric_3": 46680,
+            "metric_4": 8907.2
+        }
+    },
+    {
+        "country_code": "MC",
+        "country_name": "Monaco",
+        "metrics": {
+            "metric_1": 139.96,
+            "metric_2": 3215,
+            "metric_3": 112962,
+            "metric_4": 9531.2
+        }
+    },
+    {
+        "country_code": "MD",
+        "country_name": "Moldova",
+        "metrics": {
+            "metric_1": 140.91,
+            "metric_2": 3381,
+            "metric_3": 55536,
+            "metric_4": 15733.6
+        }
+    },
+    {
+        "country_code": "MG",
+        "country_name": "Madagascar",
+        "metrics": {
+            "metric_1": 141.94,
+            "metric_2": 2837,
+            "metric_3": 129057,
+            "metric_4": 18266.6
+        }
+    },
+    {
+        "country_code": "MV",
+        "country_name": "Maldives",
+        "metrics": {
+            "metric_1": 142.9,
+            "metric_2": 3858,
+            "metric_3": 28871,
+            "metric_4": 15566
+        }
+    },
+    {
+        "country_code": "MX",
+        "country_name": "Mexico",
+        "metrics": {
+            "metric_1": 143.95,
+            "metric_2": 3167,
+            "metric_3": 15981,
+            "metric_4": 18684.2
+        }
+    },
+    {
+        "country_code": "MH",
+        "country_name": "Marshall Islands",
+        "metrics": {
+            "metric_1": 144.96,
+            "metric_2": 3109.5,
+            "metric_3": 83360,
+            "metric_4": 18612.8
+        }
+    },
+    {
+        "country_code": "MK",
+        "country_name": "Macedonia",
+        "metrics": {
+            "metric_1": 145.84,
+            "metric_2": 4158,
+            "metric_3": 128748,
+            "metric_4": 13837.5
+        }
+    },
+    {
+        "country_code": "ML",
+        "country_name": "Mali",
+        "metrics": {
+            "metric_1": 146.88,
+            "metric_2": 3964,
+            "metric_3": 124947,
+            "metric_4": 13357
+        }
+    },
+    {
+        "country_code": "MT",
+        "country_name": "Malta",
+        "metrics": {
+            "metric_1": 147.96,
+            "metric_2": 3843,
+            "metric_3": 24408,
+            "metric_4": 16190
+        }
+    },
+    {
+        "country_code": "MM",
+        "country_name": "Myanmar",
+        "metrics": {
+            "metric_1": 148.84,
+            "metric_2": 3128,
+            "metric_3": 126039,
+            "metric_4": 17177.4
+        }
+    },
+    {
+        "country_code": "ME",
+        "country_name": "Montenegro",
+        "metrics": {
+            "metric_1": 149.93,
+            "metric_2": 3824,
+            "metric_3": 102723,
+            "metric_4": 18628
+        }
+    },
+    {
+        "country_code": "MN",
+        "country_name": "Mongolia",
+        "metrics": {
+            "metric_1": 150.89,
+            "metric_2": 3388.5,
+            "metric_3": 27168,
+            "metric_4": 13741.6
+        }
+    },
+    {
+        "country_code": "MP",
+        "country_name": "Northern Mariana Islands",
+        "metrics": {
+            "metric_1": 151.95,
+            "metric_2": 4249,
+            "metric_3": 122190,
+            "metric_4": 17787.7
+        }
+    },
+    {
+        "country_code": "MZ",
+        "country_name": "Mozambique",
+        "metrics": {
+            "metric_1": 152.87,
+            "metric_2": 3663,
+            "metric_3": 140295,
+            "metric_4": 15997
+        }
+    },
+    {
+        "country_code": "MR",
+        "country_name": "Mauritania",
+        "metrics": {
+            "metric_1": 153.86,
+            "metric_2": 3458,
+            "metric_3": 106698,
+            "metric_4": 11939
+        }
+    },
+    {
+        "country_code": "MS",
+        "country_name": "Montserrat",
+        "metrics": {
+            "metric_1": 154.88,
+            "metric_2": 4336,
+            "metric_3": 28806,
+            "metric_4": 18173.6
+        }
+    },
+    {
+        "country_code": "MQ",
+        "country_name": "Martinique",
+        "metrics": {
+            "metric_1": 155.85,
+            "metric_2": 4365,
+            "metric_3": 41172,
+            "metric_4": 16730.5
+        }
+    },
+    {
+        "country_code": "MU",
+        "country_name": "Mauritius",
+        "metrics": {
+            "metric_1": 156.86,
+            "metric_2": 3295,
+            "metric_3": 57287,
+            "metric_4": 10540.6
+        }
+    },
+    {
+        "country_code": "MW",
+        "country_name": "Malawi",
+        "metrics": {
+            "metric_1": 157.87,
+            "metric_2": 3315,
+            "metric_3": 12804,
+            "metric_4": 14158
+        }
+    },
+    {
+        "country_code": "MY",
+        "country_name": "Malaysia",
+        "metrics": {
+            "metric_1": 158.88,
+            "metric_2": 3572.5,
+            "metric_3": 104928,
+            "metric_4": 21054
+        }
+    },
+    {
+        "country_code": "YT",
+        "country_name": "Mayotte",
+        "metrics": {
+            "metric_1": 159.93,
+            "metric_2": 3752,
+            "metric_3": 47976,
+            "metric_4": 10818.5
+        }
+    },
+    {
+        "country_code": "NA",
+        "country_name": "Namibia",
+        "metrics": {
+            "metric_1": 160.97,
+            "metric_2": 3703,
+            "metric_3": 120899,
+            "metric_4": 11324
+        }
+    },
+    {
+        "country_code": "NC",
+        "country_name": "New Caledonia",
+        "metrics": {
+            "metric_1": 161.97,
+            "metric_2": 3233,
+            "metric_3": 64455,
+            "metric_4": 15352.6
+        }
+    },
+    {
+        "country_code": "NE",
+        "country_name": "Niger",
+        "metrics": {
+            "metric_1": 162.9,
+            "metric_2": 3990.5,
+            "metric_3": 122715,
+            "metric_4": 18804
+        }
+    },
+    {
+        "country_code": "NF",
+        "country_name": "Norfolk Island",
+        "metrics": {
+            "metric_1": 163.95,
+            "metric_2": 3113,
+            "metric_3": 81991,
+            "metric_4": 16266.3
+        }
+    },
+    {
+        "country_code": "NG",
+        "country_name": "Nigeria",
+        "metrics": {
+            "metric_1": 164.87,
+            "metric_2": 4612,
+            "metric_3": 10884,
+            "metric_4": 18038.8
+        }
+    },
+    {
+        "country_code": "NI",
+        "country_name": "Nicaragua",
+        "metrics": {
+            "metric_1": 165.95,
+            "metric_2": 4229,
+            "metric_3": 80151,
+            "metric_4": 16971.6
+        }
+    },
+    {
+        "country_code": "NU",
+        "country_name": "Niue",
+        "metrics": {
+            "metric_1": 166.96,
+            "metric_2": 3752.5,
+            "metric_3": 153458,
+            "metric_4": 16471.2
+        }
+    },
+    {
+        "country_code": "NL",
+        "country_name": "Netherlands",
+        "metrics": {
+            "metric_1": 167.86,
+            "metric_2": 3943,
+            "metric_3": 24,
+            "metric_4": 15898.5
+        }
+    },
+    {
+        "country_code": "NO",
+        "country_name": "Norway",
+        "metrics": {
+            "metric_1": 168.88,
+            "metric_2": 3287.5,
+            "metric_3": 137207,
+            "metric_4": 21771.8
+        }
+    },
+    {
+        "country_code": "NP",
+        "country_name": "Nepal",
+        "metrics": {
+            "metric_1": 169.87,
+            "metric_2": 3905,
+            "metric_3": 110989,
+            "metric_4": 15427.4
+        }
+    },
+    {
+        "country_code": "NR",
+        "country_name": "Nauru",
+        "metrics": {
+            "metric_1": 170.96,
+            "metric_2": 4181.5,
+            "metric_3": 14178,
+            "metric_4": 18913.8
+        }
+    },
+    {
+        "country_code": "NZ",
+        "country_name": "New Zealand",
+        "metrics": {
+            "metric_1": 171.97,
+            "metric_2": 3434,
+            "metric_3": 4155,
+            "metric_4": 21718.7
+        }
+    },
+    {
+        "country_code": "OM",
+        "country_name": "Oman",
+        "metrics": {
+            "metric_1": 172.88,
+            "metric_2": 4231.5,
+            "metric_3": 171094,
+            "metric_4": 11720
+        }
+    },
+    {
+        "country_code": "PK",
+        "country_name": "Pakistan",
+        "metrics": {
+            "metric_1": 173.91,
+            "metric_2": 4175,
+            "metric_3": 171198,
+            "metric_4": 16341.7
+        }
+    },
+    {
+        "country_code": "PA",
+        "country_name": "Panama",
+        "metrics": {
+            "metric_1": 174.9,
+            "metric_2": 4019,
+            "metric_3": 147151,
+            "metric_4": 18559.4
+        }
+    },
+    {
+        "country_code": "PN",
+        "country_name": "Pitcairn Islands",
+        "metrics": {
+            "metric_1": 175.9,
+            "metric_2": 4043,
+            "metric_3": 80423,
+            "metric_4": 13600.7
+        }
+    },
+    {
+        "country_code": "PE",
+        "country_name": "Peru",
+        "metrics": {
+            "metric_1": 176.88,
+            "metric_2": 4951,
+            "metric_3": 56262,
+            "metric_4": 21881.2
+        }
+    },
+    {
+        "country_code": "PH",
+        "country_name": "Philippines",
+        "metrics": {
+            "metric_1": 177.93,
+            "metric_2": 3737,
+            "metric_3": 8746,
+            "metric_4": 13960
+        }
+    },
+    {
+        "country_code": "PW",
+        "country_name": "Palau",
+        "metrics": {
+            "metric_1": 178.94,
+            "metric_2": 3576,
+            "metric_3": 67283,
+            "metric_4": 13120.8
+        }
+    },
+    {
+        "country_code": "PG",
+        "country_name": "Papua New Guinea",
+        "metrics": {
+            "metric_1": 179.91,
+            "metric_2": 3504,
+            "metric_3": 107085,
+            "metric_4": 17445.2
+        }
+    },
+    {
+        "country_code": "PL",
+        "country_name": "Poland",
+        "metrics": {
+            "metric_1": 180.96,
+            "metric_2": 3975,
+            "metric_3": 115098,
+            "metric_4": 18996.2
+        }
+    },
+    {
+        "country_code": "PR",
+        "country_name": "Puerto Rico",
+        "metrics": {
+            "metric_1": 181.87,
+            "metric_2": 3636,
+            "metric_3": 755,
+            "metric_4": 15525.1
+        }
+    },
+    {
+        "country_code": "KP",
+        "country_name": "North Korea",
+        "metrics": {
+            "metric_1": 182.96,
+            "metric_2": 3929.5,
+            "metric_3": 174189,
+            "metric_4": 16309
+        }
+    },
+    {
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "metrics": {
+            "metric_1": 183.95,
+            "metric_2": 4872,
+            "metric_3": 135771,
+            "metric_4": 19607.6
+        }
+    },
+    {
+        "country_code": "PY",
+        "country_name": "Paraguay",
+        "metrics": {
+            "metric_1": 184.9,
+            "metric_2": 4895.5,
+            "metric_3": 93786,
+            "metric_4": 13211.6
+        }
+    },
+    {
+        "country_code": "PS",
+        "country_name": "Palestine",
+        "metrics": {
+            "metric_1": 185.96,
+            "metric_2": 3620,
+            "metric_3": 66765,
+            "metric_4": 14589
+        }
+    },
+    {
+        "country_code": "PF",
+        "country_name": "French Polynesia",
+        "metrics": {
+            "metric_1": 186.88,
+            "metric_2": 4488,
+            "metric_3": 63378,
+            "metric_4": 18053.8
+        }
+    },
+    {
+        "country_code": "QA",
+        "country_name": "Qatar",
+        "metrics": {
+            "metric_1": 187.95,
+            "metric_2": 3947,
+            "metric_3": 105459,
+            "metric_4": 22680
+        }
+    },
+    {
+        "country_code": "RE",
+        "country_name": "Réunion",
+        "metrics": {
+            "metric_1": 188.93,
+            "metric_2": 4628.5,
+            "metric_3": 84858,
+            "metric_4": 15063.6
+        }
+    },
+    {
+        "country_code": "RO",
+        "country_name": "Romania",
+        "metrics": {
+            "metric_1": 189.91,
+            "metric_2": 3603,
+            "metric_3": 138869,
+            "metric_4": 25092.2
+        }
+    },
+    {
+        "country_code": "RU",
+        "country_name": "Russia",
+        "metrics": {
+            "metric_1": 190.9,
+            "metric_2": 4103.5,
+            "metric_3": 55936,
+            "metric_4": 20148.2
+        }
+    },
+    {
+        "country_code": "RW",
+        "country_name": "Rwanda",
+        "metrics": {
+            "metric_1": 191.94,
+            "metric_2": 3834,
+            "metric_3": 165501,
+            "metric_4": 24863.3
+        }
+    },
+    {
+        "country_code": "SA",
+        "country_name": "Saudi Arabia",
+        "metrics": {
+            "metric_1": 192.94,
+            "metric_2": 4920.5,
+            "metric_3": 134904,
+            "metric_4": 20492
+        }
+    },
+    {
+        "country_code": "SD",
+        "country_name": "Sudan",
+        "metrics": {
+            "metric_1": 193.91,
+            "metric_2": 4939,
+            "metric_3": 12822,
+            "metric_4": 22515.7
+        }
+    },
+    {
+        "country_code": "SN",
+        "country_name": "Senegal",
+        "metrics": {
+            "metric_1": 194.92,
+            "metric_2": 4484,
+            "metric_3": 33909,
+            "metric_4": 19837.6
+        }
+    },
+    {
+        "country_code": "SG",
+        "country_name": "Singapore",
+        "metrics": {
+            "metric_1": 195.9,
+            "metric_2": 5193,
+            "metric_3": 175595,
+            "metric_4": 18872.7
+        }
+    },
+    {
+        "country_code": "GS",
+        "country_name": "South Georgia",
+        "metrics": {
+            "metric_1": 196.96,
+            "metric_2": 4431.5,
+            "metric_3": 16933,
+            "metric_4": 24395.6
+        }
+    },
+    {
+        "country_code": "SJ",
+        "country_name": "Svalbard and Jan Mayen",
+        "metrics": {
+            "metric_1": 197.97,
+            "metric_2": 4545,
+            "metric_3": 6129,
+            "metric_4": 15287.5
+        }
+    },
+    {
+        "country_code": "SB",
+        "country_name": "Solomon Islands",
+        "metrics": {
+            "metric_1": 198.94,
+            "metric_2": 3773,
+            "metric_3": 46545,
+            "metric_4": 24683.4
+        }
+    },
+    {
+        "country_code": "SL",
+        "country_name": "Sierra Leone",
+        "metrics": {
+            "metric_1": 199.97,
+            "metric_2": 4892,
+            "metric_3": 23994,
+            "metric_4": 26795.4
+        }
+    },
+    {
+        "country_code": "SV",
+        "country_name": "El Salvador",
+        "metrics": {
+            "metric_1": 200.92,
+            "metric_2": 4722.5,
+            "metric_3": 111327,
+            "metric_4": 26970.4
+        }
+    },
+    {
+        "country_code": "SM",
+        "country_name": "San Marino",
+        "metrics": {
+            "metric_1": 201.92,
+            "metric_2": 5143,
+            "metric_3": 190462,
+            "metric_4": 25869.7
+        }
+    },
+    {
+        "country_code": "SO",
+        "country_name": "Somalia",
+        "metrics": {
+            "metric_1": 202.94,
+            "metric_2": 4766.5,
+            "metric_3": 89505,
+            "metric_4": 25927
+        }
+    },
+    {
+        "country_code": "PM",
+        "country_name": "Saint Pierre and Miquelon",
+        "metrics": {
+            "metric_1": 203.92,
+            "metric_2": 4072,
+            "metric_3": 101376,
+            "metric_4": 15454.8
+        }
+    },
+    {
+        "country_code": "RS",
+        "country_name": "Serbia",
+        "metrics": {
+            "metric_1": 204.88,
+            "metric_2": 5630.5,
+            "metric_3": 121767,
+            "metric_4": 23752.2
+        }
+    },
+    {
+        "country_code": "SS",
+        "country_name": "South Sudan",
+        "metrics": {
+            "metric_1": 205.88,
+            "metric_2": 4324,
+            "metric_3": 28822,
+            "metric_4": 21100.3
+        }
+    },
+    {
+        "country_code": "ST",
+        "country_name": "São Tomé and Príncipe",
+        "metrics": {
+            "metric_1": 206.98,
+            "metric_2": 4964,
+            "metric_3": 108042,
+            "metric_4": 15041
+        }
+    },
+    {
+        "country_code": "SR",
+        "country_name": "Suriname",
+        "metrics": {
+            "metric_1": 207.94,
+            "metric_2": 5400,
+            "metric_3": 33901,
+            "metric_4": 15850
+        }
+    },
+    {
+        "country_code": "SK",
+        "country_name": "Slovakia",
+        "metrics": {
+            "metric_1": 208.97,
+            "metric_2": 5430,
+            "metric_3": 13582,
+            "metric_4": 18626.6
+        }
+    },
+    {
+        "country_code": "SI",
+        "country_name": "Slovenia",
+        "metrics": {
+            "metric_1": 209.92,
+            "metric_2": 5353,
+            "metric_3": 33591,
+            "metric_4": 21770.3
+        }
+    },
+    {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "metrics": {
+            "metric_1": 210.92,
+            "metric_2": 4106.5,
+            "metric_3": 83755,
+            "metric_4": 25989.2
+        }
+    },
+    {
+        "country_code": "SZ",
+        "country_name": "Eswatini",
+        "metrics": {
+            "metric_1": 211.97,
+            "metric_2": 5511,
+            "metric_3": 113841,
+            "metric_4": 16059.6
+        }
+    },
+    {
+        "country_code": "SX",
+        "country_name": "Sint Maarten",
+        "metrics": {
+            "metric_1": 212.96,
+            "metric_2": 4785.5,
+            "metric_3": 147597,
+            "metric_4": 26292
+        }
+    },
+    {
+        "country_code": "SC",
+        "country_name": "Seychelles",
+        "metrics": {
+            "metric_1": 213.96,
+            "metric_2": 5989,
+            "metric_3": 11571,
+            "metric_4": 24115
+        }
+    },
+    {
+        "country_code": "SY",
+        "country_name": "Syria",
+        "metrics": {
+            "metric_1": 214.92,
+            "metric_2": 4730,
+            "metric_3": 114998,
+            "metric_4": 27642.2
+        }
+    },
+    {
+        "country_code": "TC",
+        "country_name": "Turks and Caicos Islands",
+        "metrics": {
+            "metric_1": 215.94,
+            "metric_2": 4856,
+            "metric_3": 163509,
+            "metric_4": 28900.6
+        }
+    },
+    {
+        "country_code": "TD",
+        "country_name": "Chad",
+        "metrics": {
+            "metric_1": 216.95,
+            "metric_2": 4765,
+            "metric_3": 156222,
+            "metric_4": 27242
+        }
+    },
+    {
+        "country_code": "TG",
+        "country_name": "Togo",
+        "metrics": {
+            "metric_1": 217.93,
+            "metric_2": 6097,
+            "metric_3": 76718,
+            "metric_4": 22596.5
+        }
+    },
+    {
+        "country_code": "TH",
+        "country_name": "Thailand",
+        "metrics": {
+            "metric_1": 218.97,
+            "metric_2": 5685,
+            "metric_3": 165552,
+            "metric_4": 15244.4
+        }
+    },
+    {
+        "country_code": "TJ",
+        "country_name": "Tajikistan",
+        "metrics": {
+            "metric_1": 219.94,
+            "metric_2": 5830,
+            "metric_3": 191602,
+            "metric_4": 22222.8
+        }
+    },
+    {
+        "country_code": "TK",
+        "country_name": "Tokelau",
+        "metrics": {
+            "metric_1": 220.95,
+            "metric_2": 5521,
+            "metric_3": 156895,
+            "metric_4": 24309.4
+        }
+    },
+    {
+        "country_code": "TM",
+        "country_name": "Turkmenistan",
+        "metrics": {
+            "metric_1": 221.96,
+            "metric_2": 5328,
+            "metric_3": 197352,
+            "metric_4": 17396.5
+        }
+    },
+    {
+        "country_code": "TL",
+        "country_name": "Timor-Leste",
+        "metrics": {
+            "metric_1": 222.96,
+            "metric_2": 4905,
+            "metric_3": 85159,
+            "metric_4": 25124
+        }
+    },
+    {
+        "country_code": "TO",
+        "country_name": "Tonga",
+        "metrics": {
+            "metric_1": 223.94,
+            "metric_2": 4815,
+            "metric_3": 100797,
+            "metric_4": 23240.1
+        }
+    },
+    {
+        "country_code": "TT",
+        "country_name": "Trinidad and Tobago",
+        "metrics": {
+            "metric_1": 224.96,
+            "metric_2": 5284.5,
+            "metric_3": 14166,
+            "metric_4": 24577.2
+        }
+    },
+    {
+        "country_code": "TN",
+        "country_name": "Tunisia",
+        "metrics": {
+            "metric_1": 225.91,
+            "metric_2": 5872,
+            "metric_3": 16245,
+            "metric_4": 19941.3
+        }
+    },
+    {
+        "country_code": "TR",
+        "country_name": "Turkey",
+        "metrics": {
+            "metric_1": 226.95,
+            "metric_2": 4309,
+            "metric_3": 8614,
+            "metric_4": 26811.8
+        }
+    },
+    {
+        "country_code": "TV",
+        "country_name": "Tuvalu",
+        "metrics": {
+            "metric_1": 227.97,
+            "metric_2": 4439,
+            "metric_3": 217962,
+            "metric_4": 24985
+        }
+    },
+    {
+        "country_code": "TW",
+        "country_name": "Taiwan",
+        "metrics": {
+            "metric_1": 228.94,
+            "metric_2": 5258,
+            "metric_3": 211120,
+            "metric_4": 26762.4
+        }
+    },
+    {
+        "country_code": "TZ",
+        "country_name": "Tanzania",
+        "metrics": {
+            "metric_1": 229.93,
+            "metric_2": 5284,
+            "metric_3": 8958,
+            "metric_4": 20835.6
+        }
+    },
+    {
+        "country_code": "UG",
+        "country_name": "Uganda",
+        "metrics": {
+            "metric_1": 230.95,
+            "metric_2": 5887.5,
+            "metric_3": 26085,
+            "metric_4": 16995.6
+        }
+    },
+    {
+        "country_code": "UA",
+        "country_name": "Ukraine",
+        "metrics": {
+            "metric_1": 231.98,
+            "metric_2": 6257,
+            "metric_3": 3462,
+            "metric_4": 23144.7
+        }
+    },
+    {
+        "country_code": "UM",
+        "country_name": "United States Minor Outlying Islands",
+        "metrics": {
+            "metric_1": 232.94,
+            "metric_2": 6633.5,
+            "metric_3": 54044,
+            "metric_4": 18038
+        }
+    },
+    {
+        "country_code": "UY",
+        "country_name": "Uruguay",
+        "metrics": {
+            "metric_1": 233.92,
+            "metric_2": 4440,
+            "metric_3": 12,
+            "metric_4": 22431
+        }
+    },
+    {
+        "country_code": "US",
+        "country_name": "United States",
+        "metrics": {
+            "metric_1": 234.93,
+            "metric_2": 5873,
+            "metric_3": 93512,
+            "metric_4": 30655.2
+        }
+    },
+    {
+        "country_code": "UZ",
+        "country_name": "Uzbekistan",
+        "metrics": {
+            "metric_1": 235.95,
+            "metric_2": 4593,
+            "metric_3": 105943,
+            "metric_4": 26771.6
+        }
+    },
+    {
+        "country_code": "VA",
+        "country_name": "Vatican City",
+        "metrics": {
+            "metric_1": 236.9,
+            "metric_2": 6517.5,
+            "metric_3": 52824,
+            "metric_4": 30886
+        }
+    },
+    {
+        "country_code": "VC",
+        "country_name": "Saint Vincent and the Grenadines",
+        "metrics": {
+            "metric_1": 237.98,
+            "metric_2": 6305,
+            "metric_3": 17163,
+            "metric_4": 31760
+        }
+    },
+    {
+        "country_code": "VE",
+        "country_name": "Venezuela",
+        "metrics": {
+            "metric_1": 238.95,
+            "metric_2": 6090.5,
+            "metric_3": 475,
+            "metric_4": 17153.4
+        }
+    },
+    {
+        "country_code": "VG",
+        "country_name": "British Virgin Islands",
+        "metrics": {
+            "metric_1": 239.96,
+            "metric_2": 5758,
+            "metric_3": 102456,
+            "metric_4": 24609.9
+        }
+    },
+    {
+        "country_code": "VI",
+        "country_name": "United States Virgin Islands",
+        "metrics": {
+            "metric_1": 240.96,
+            "metric_2": 6261,
+            "metric_3": 43597,
+            "metric_4": 17313.8
+        }
+    },
+    {
+        "country_code": "VN",
+        "country_name": "Vietnam",
+        "metrics": {
+            "metric_1": 241.94,
+            "metric_2": 6168,
+            "metric_3": 4123,
+            "metric_4": 21292
+        }
+    },
+    {
+        "country_code": "VU",
+        "country_name": "Vanuatu",
+        "metrics": {
+            "metric_1": 242.98,
+            "metric_2": 6072,
+            "metric_3": 105936,
+            "metric_4": 28433
+        }
+    },
+    {
+        "country_code": "WF",
+        "country_name": "Wallis and Futuna",
+        "metrics": {
+            "metric_1": 243.94,
+            "metric_2": 5852,
+            "metric_3": 206891,
+            "metric_4": 30253.8
+        }
+    },
+    {
+        "country_code": "WS",
+        "country_name": "Samoa",
+        "metrics": {
+            "metric_1": 244.97,
+            "metric_2": 5996.5,
+            "metric_3": 136459,
+            "metric_4": 21861.4
+        }
+    },
+    {
+        "country_code": "YE",
+        "country_name": "Yemen",
+        "metrics": {
+            "metric_1": 245.91,
+            "metric_2": 6019,
+            "metric_3": 200241,
+            "metric_4": 17097.6
+        }
+    },
+    {
+        "country_code": "ZA",
+        "country_name": "South Africa",
+        "metrics": {
+            "metric_1": 246.94,
+            "metric_2": 4687,
+            "metric_3": 41966,
+            "metric_4": 18208.2
+        }
+    },
+    {
+        "country_code": "ZM",
+        "country_name": "Zambia",
+        "metrics": {
+            "metric_1": 247.93,
+            "metric_2": 4710,
+            "metric_3": 94981,
+            "metric_4": 27713.5
+        }
+    },
+    {
+        "country_code": "ZW",
+        "country_name": "Zimbabwe",
+        "metrics": {
+            "metric_1": 248.96,
+            "metric_2": 5967,
+            "metric_3": 112281,
+            "metric_4": 23762.4
+        }
+    }
+]
