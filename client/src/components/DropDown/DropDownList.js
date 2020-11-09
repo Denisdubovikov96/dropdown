@@ -1,6 +1,5 @@
 import React from "react";
 import classNames from "classnames";
-import Flag from "react-country-flag";
 
 export default function DropDownList() {
   const dropDown = classNames("drop-down-list");
@@ -23,6 +22,24 @@ export default function DropDownList() {
           <div>Metric 4</div>
         </div>
         <div className="body">
+          <div className="row">
+            <div>
+              <input type="checkbox" />
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div className="row">
+            <div>
+              <input type="checkbox" />
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
           <div className="row">
             <div>
               <input type="checkbox" />
