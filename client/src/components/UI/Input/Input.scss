@@ -1,0 +1,41 @@
+.input {
+  position: relative;
+  width: 100%;
+  .icon {
+    font-size: 16px;
+    left: 10px;
+    top: 6px;
+    position: absolute;
+  }
+  input {
+    transition: all 0.2s linear;
+    background: #fefefe;
+    width: 100%;
+    border: 1px solid #bac8e400;
+    background: inherit;
+    font-family: inherit;
+    height: 100%;
+    background: #fefefe;
+    border-radius: 5px;
+    padding: 6px 6px 6px 32px;
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.2);
+    }
+    &:hover {
+      border: 1px solid #bac8e4;
+      background: #eff2f8;
+    }
+    &:focus {
+      border: 1px solid #5586ef;
+      background-color: #eff2f8;
+    }
+  }
+}
+
+input {
+  border: none;
+}
+*:hover,
+*:focus {
+  outline: none;
+}

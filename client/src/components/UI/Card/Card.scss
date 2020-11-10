@@ -1,0 +1,22 @@
+.card {
+  margin: 0 auto;
+  max-width: 755px;
+  // min-height: 150px;
+  // max-height: 257px;
+  border: 1px solid #70707028;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  background-color: #f6f6f8;
+  font-family: "Roboto", sans-serif;
+  .card-head {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    // margin: -1px;
+    border-bottom: 1px solid #70707028;
+    padding: 12px 12px 8px;
+    background: white;
+  }
+  .card-body {
+    padding: 6px 12px 12px;
+  }
+}
