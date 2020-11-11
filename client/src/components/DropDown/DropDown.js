@@ -5,10 +5,9 @@ import "./DropDown.scss";
 import { Badge, Card, Select, Flag } from "../UI";
 import DropDownList from "./DropDownList";
 import { DropDownContext } from "./DropDownContext";
-import axios from "axios";
 
-const listReducer = (state, action) => {
-  switch (action.type) {
+const listReducer = (state, { type, payload }) => {
+  switch (type) {
     case "LOADING":
       return {
         ...state,
@@ -18,13 +17,24 @@ const listReducer = (state, action) => {
       return {
         ...state,
         loading: false,
-        list: action.payload,
+        list: payload,
       };
     case "ERROR":
       return {
         ...state,
         loading: false,
-        error: action.payload,
+        error: payload,
+      };
+    case "TOGLE_SELECT":
+      return {
+        ...state,
+        list: {
+          ...state.list,
+          [payload]: {
+            ...state.list[payload],
+            selected: !state.list[payload].selected,
+          },
+        },
       };
 
     default:
@@ -33,52 +43,62 @@ const listReducer = (state, action) => {
 };
 
 export default function DropDown() {
-  // const [list, setList] = useState(null);
   const [state, dispatch] = useReducer(listReducer, {
-    list: [],
+    list: {},
     loading: false,
     error: null,
   });
-  const { list } = state;
-  const [checkedList, setCheckedList] = useState([]);
+  const headControllers = [
+    { title: "Countries", key: "country_name", sortable: false },
+    { title: "Metric 1", key: "metric_1", sortable: true },
+    { title: "Metric 2", key: "metric_2", sortable: true },
+    { title: "Metric 3", key: "metric_3", sortable: true },
+    { title: "Metric 4", key: "metric_4", sortable: true },
+  ];
 
   const fetchList = async () => {
     dispatch({ type: "LOADING" });
     try {
-      const responce = await fetch("http://localhost:5000/", {
-        referrerPolicy: "strict-origin-when-cross-origin",
-        method: "GET",
-        mode: "no-cors",
-        headers: {
-          "Cotent-Type": "application/json",
-        },
-        credentials: "omit",
-      });
-      // const data = await responce.json();
-      console.log(responce);
-      dispatch({ type: "SUCCESS", payload: [] });
+      const responce = await fetch("http://localhost:5000/");
+      const data = await responce.json();
+      const dataToState = Object.fromEntries(
+        data.map((item) => {
+          return [item.country_code, { ...item, select: false }];
+        })
+      );
+      dispatch({ type: "SUCCESS", payload: dataToState });
     } catch (error) {
       dispatch({ type: "ERROR", payload: error });
     }
   };
 
+  const togleSelect = (key) => {
+    dispatch({ type: "TOGLE_SELECT", payload: key });
+  };
+
   return (
-    <DropDownContext.Provider value={{ ...state, fetchList }}>
+    <DropDownContext.Provider value={{ ...state, fetchList, togleSelect }}>
       <Card title="Countries DropDown">
         <div className="info-block">
           <span className="label">Selected:</span>
           <div className="content">
-            {checkedList.length !== 0 ? (
-              checkedList.map((item) => {
-                return (
-                  <Badge key={item.country_code}>
-                    <div className="country-badge">
-                      <Flag countryCode={item.country_code} />
-                      <span>{item.country_name}</span>
-                    </div>
-                  </Badge>
-                );
-              })
+            {Object.keys(state.list).filter((key) => state.list[key].selected)
+              .length !== 0 ? (
+              Object.keys(state.list)
+                .filter((key) => state.list[key].selected)
+                .map((key) => {
+                  return (
+                    <Badge
+                      key={state.list[key].country_code}
+                      onClick={() => togleSelect(state.list[key].country_code)}
+                    >
+                      <div className="country-badge">
+                        <Flag countryCode={state.list[key].country_code} />
+                        <span>{state.list[key].country_name}</span>
+                      </div>
+                    </Badge>
+                  );
+                })
             ) : (
               <span className="placeholder">
                 Select the Countries from the list below
@@ -86,7 +106,10 @@ export default function DropDown() {
             )}
           </div>
         </div>
-        <Select label="Select country" expandedElement={<DropDownList />} />
+        <Select
+          label="Select country"
+          expandedElement={<DropDownList headControllers={headControllers} />}
+        />
       </Card>
     </DropDownContext.Provider>
   );

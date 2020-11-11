@@ -6,72 +6,71 @@ import { sortByKey } from "../../helperFunctions";
 import classNames from "classnames";
 import { DropDownContext } from "./DropDownContext";
 
-export default function DropDownList() {
+export default function DropDownList({ headControllers }) {
   const [sortConfig, setSortConfig] = useState(null);
-  const { fetchList, list, error, loading } = useContext(DropDownContext);
-  console.log("list", list);
-  console.log("error", error);
-  console.log("loading", loading);
+  const { fetchList, list, error, loading, togleSelect } = useContext(
+    DropDownContext
+  );
 
   useEffect(() => {
     fetchList();
   }, []);
 
-  if (loading) {
-    return <div>...Loading</div>;
-  }
-  if (error || list.length === 0) {
-    return <div>...ERORR...</div>;
-  } else {
-    const controllsTitle = Object.keys(list[0].metrics).map((key) => {
-      const upBtn = classNames("icon", {
-        active:
-          sortConfig && "up" === sortConfig.type && key === sortConfig.key,
-      });
-      const downBtn = classNames("icon", {
-        active:
-          sortConfig && "down" === sortConfig.type && key === sortConfig.key,
-      });
-      return (
-        <div className="section" key={key}>
-          <span className="section-controls">
+  const controllsTitle = headControllers.map((item) => {
+    const { sortable, key, title } = item;
+    const upBtn = classNames("icon", "fas fa-caret-up", {
+      active: sortConfig && "up" === sortConfig.type && key === sortConfig.key,
+    });
+    const downBtn = classNames("icon", "fas fa-caret-down", {
+      active:
+        sortConfig && "down" === sortConfig.type && key === sortConfig.key,
+    });
+    return (
+      <div className="section" key={key}>
+        {sortable ? (
+          <div className="section-controls">
             <span
               className={upBtn}
               onClick={() => setSortConfig({ key: key, type: "up" })}
-            >
-              <i className="fas fa-caret-up" />
-            </span>
+            />
             <span
               className={downBtn}
               onClick={() => setSortConfig({ key: key, type: "down" })}
-            >
-              <i className="fas fa-caret-down" />
-            </span>
-          </span>
-          {keyToTitle(key)}
-        </div>
-      );
-    });
-    if (sortConfig) {
-      list.sort((a, b) => sortByKey(a, b, sortConfig.key, sortConfig.type));
-    }
-    return (
-      <>
-        <div className="search-pannel">
-          <Input />
-        </div>
-        <div className="drop-table">
-          <div className="row head">
-            <div className="section">Countries</div>
-            {controllsTitle}
+            />
           </div>
-          <div className="scroll">
-            {list.map((item) => {
-              return <DropDownRow key={item.country_code} item={item} />;
-            })}
-          </div>
-        </div>
-      </>
+        ) : null}
+        {title}
+      </div>
     );
+  });
+  if (sortConfig) {
+    list.sort((a, b) => sortByKey(a, b, sortConfig.key, sortConfig.type));
   }
+  return (
+    <>
+      <div className="search-pannel">
+        <Input />
+      </div>
+      <div className="drop-table">
+        <div className="row head">{controllsTitle}</div>
+        <div className="scroll">
+          {loading && !error ? (
+            <div>...Загрузка</div>
+          ) : !loading && error ? (
+            <div>...Errror</div>
+          ) : (
+            Object.keys(list).map((key) => {
+              return (
+                <DropDownRow
+                  key={list[key].country_code}
+                  onSelect={togleSelect}
+                  item={list[key]}
+                />
+              );
+            })
+          )}
+        </div>
+      </div>
+    </>
+  );
 }
