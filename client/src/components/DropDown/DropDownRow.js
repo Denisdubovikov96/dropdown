@@ -12,12 +12,7 @@ export default function DropDownItem({ onSelect, item }) {
   return (
     <div className="row body" onClick={(e) => onSelect(country_code, e)}>
       <div className="section">
-        <input
-          className="item"
-          checked={!!selected}
-          onChange={(e) => onSelect(country_code, e)}
-          type="checkbox"
-        />
+        <input className="item" checked={!!selected} readOnly type="checkbox" />
         <span className="item">
           <Flag countryCode={country_code} svg />
         </span>

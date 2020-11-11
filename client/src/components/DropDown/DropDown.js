@@ -77,7 +77,6 @@ export default function DropDown() {
   }, []);
 
   const togleSelect = (key, e) => {
-    e.stopPropagation();
     dispatch({ type: "TOGLE_SELECT", payload: key });
   };
 
