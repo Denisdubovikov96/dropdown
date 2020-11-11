@@ -1,20 +1,23 @@
 import React, { useContext, useEffect, useState } from "react";
 import DropDownRow from "./DropDownRow";
 import Input from "../UI/Input/Input";
-import { keyToTitle } from "../../helperFunctions";
 import { sortByKey } from "../../helperFunctions";
 import classNames from "classnames";
 import { DropDownContext } from "./DropDownContext";
 
 export default function DropDownList({ headControllers }) {
   const [sortConfig, setSortConfig] = useState(null);
+  const [query, setQuery] = useState("");
+
   const { fetchList, list, error, loading, togleSelect } = useContext(
     DropDownContext
   );
-
+  console.log(query);
   useEffect(() => {
     fetchList();
   }, []);
+
+  const keysArray = Object.keys(list);
 
   const controllsTitle = headControllers.map((item) => {
     const { sortable, key, title } = item;
@@ -44,12 +47,20 @@ export default function DropDownList({ headControllers }) {
     );
   });
   if (sortConfig) {
-    list.sort((a, b) => sortByKey(a, b, sortConfig.key, sortConfig.type));
+    keysArray.sort((a, b) =>
+      sortByKey(a, b, sortConfig.key, sortConfig.type, list)
+    );
   }
   return (
     <>
       <div className="search-pannel">
-        <Input />
+        <Input
+          placeholder={"Search"}
+          value={query}
+          onChange={(e) => {
+            setQuery(e.target.value);
+          }}
+        />
       </div>
       <div className="drop-table">
         <div className="row head">{controllsTitle}</div>
@@ -59,7 +70,7 @@ export default function DropDownList({ headControllers }) {
           ) : !loading && error ? (
             <div>...Errror</div>
           ) : (
-            Object.keys(list).map((key) => {
+            keysArray.map((key) => {
               return (
                 <DropDownRow
                   key={list[key].country_code}

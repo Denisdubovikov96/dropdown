@@ -114,36 +114,3 @@ export default function DropDown() {
     </DropDownContext.Provider>
   );
 }
-
-// const fetchList = [
-//   {
-//     country_code: "AW",
-//     country_name: "Aruba",
-//     metrics: {
-//       metric_1: 9,
-//       metric_2: 2,
-//       metric_3: 3,
-//       metric_4: 682,
-//     },
-//   },
-//   {
-//     country_code: "AF",
-//     country_name: "Afghanistan",
-//     metrics: {
-//       metric_1: 9,
-//       metric_2: 19,
-//       metric_3: 261,
-//       metric_4: 575.4,
-//     },
-//   },
-//   {
-//     country_code: "AO",
-//     country_name: "Angola",
-//     metrics: {
-//       metric_1: 0,
-//       metric_2: 34,
-//       metric_3: 304,
-//       metric_4: 1095.6,
-//     },
-//   },
-// ];
