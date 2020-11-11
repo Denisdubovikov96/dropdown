@@ -54,7 +54,6 @@
 }
 .scroll {
   overflow: auto;
-  // min-height: calc(100% - 40px);
   min-height: 250px;
   max-height: 250px;
   &::-webkit-scrollbar {
@@ -66,6 +65,13 @@
     border-radius: 4px;
     background-color: #a0aabe;
   }
+}
+.centred-item {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .drop-table {
   border: none;

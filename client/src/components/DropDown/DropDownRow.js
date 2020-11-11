@@ -14,7 +14,7 @@ export default function DropDownItem({ onSelect, item }) {
       <div className="section">
         <input
           className="item"
-          checked={selected}
+          checked={!!selected}
           onChange={() => onSelect(country_code)}
           type="checkbox"
         />

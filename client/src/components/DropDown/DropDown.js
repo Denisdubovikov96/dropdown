@@ -1,4 +1,4 @@
-import React, { useReducer, useState } from "react";
+import React, { useEffect, useReducer, useState } from "react";
 // import classNames from "classnames";
 
 import "./DropDown.scss";
@@ -71,6 +71,10 @@ export default function DropDown() {
       dispatch({ type: "ERROR", payload: error });
     }
   };
+
+  useEffect(() => {
+    fetchList();
+  }, []);
 
   const togleSelect = (key) => {
     dispatch({ type: "TOGLE_SELECT", payload: key });

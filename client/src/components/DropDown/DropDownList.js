@@ -4,6 +4,7 @@ import Input from "../UI/Input/Input";
 import { sortByKey } from "../../helperFunctions";
 import classNames from "classnames";
 import { DropDownContext } from "./DropDownContext";
+import { Loader } from "../UI";
 
 export default function DropDownList({ headControllers }) {
   const [sortConfig, setSortConfig] = useState(null);
@@ -13,9 +14,6 @@ export default function DropDownList({ headControllers }) {
     DropDownContext
   );
   console.log(query);
-  useEffect(() => {
-    fetchList();
-  }, []);
 
   const keysArray = Object.keys(list);
 
@@ -66,7 +64,9 @@ export default function DropDownList({ headControllers }) {
         <div className="row head">{controllsTitle}</div>
         <div className="scroll">
           {loading && !error ? (
-            <div>...Загрузка</div>
+            <div className="centred-item">
+              <Loader />
+            </div>
           ) : !loading && error ? (
             <div>...Errror</div>
           ) : (
