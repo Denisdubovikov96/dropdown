@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { Flag } from "../UI";
 
 export default function DropDownItem({ onSelect, item }) {
@@ -10,12 +10,12 @@ export default function DropDownItem({ onSelect, item }) {
   } = item;
 
   return (
-    <div className="row body">
+    <div className="row body" onClick={(e) => onSelect(country_code, e)}>
       <div className="section">
         <input
           className="item"
           checked={!!selected}
-          onChange={() => onSelect(country_code)}
+          onChange={(e) => onSelect(country_code, e)}
           type="checkbox"
         />
         <span className="item">
