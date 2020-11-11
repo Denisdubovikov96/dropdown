@@ -1,6 +1,6 @@
 .info-block {
   .label {
-    padding: 0 6px 2px;
+    padding: 0 10px 2px;
     color: #0d182f;
     margin: 0;
     font-size: 12px;
@@ -9,9 +9,17 @@
   .content {
     background: #fefefe;
     display: flex;
-    justify-content: flex-starte;
+    justify-content: flex-start;
     flex-wrap: wrap;
   }
+}
+
+.placeholder {
+  margin: 10px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #0d182f;
+  opacity: 0.9;
 }
 
 .country-badge {
@@ -32,10 +40,13 @@
 }
 .scroll {
   overflow: auto;
-  max-height: 218px;
+  // min-height: calc(100% - 40px);
+  min-height: 250px;
+  max-height: 250px;
   &::-webkit-scrollbar {
     width: 8px;
     background-color: #dce8ea;
+    border-radius: 4px;
   }
   &::-webkit-scrollbar-thumb {
     border-radius: 4px;
@@ -61,7 +72,7 @@
       flex: 4;
     }
     &:last-child {
-      border-bottom: none;
+      margin-bottom: -1px;
     }
     &.head {
       font-size: 12px;
@@ -100,7 +111,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        &:nth-child(1) {
+        &:nth-child(2) {
           font-weight: 500;
           justify-content: flex-start;
         }
@@ -108,7 +119,7 @@
           height: 100%;
           display: flex;
           align-items: center;
-          margin-right: 15px;
+          margin-left: 15px;
         }
       }
     }
