@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"cd client && npm start\" \"cd server && node index.js\"",
+    "dev": "concurrently \"cd client && npm start\" \"cd server && nodemon index.js\"",
     "install-deps": "cd client && npm install && cd ../server && npm install && cd .. && npm install"
   },
   "repository": {

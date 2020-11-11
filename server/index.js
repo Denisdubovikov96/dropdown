@@ -1,6 +1,9 @@
 const express = require("express");
 const app = express();
 const data = require("./data.json");
+const cors = require("cors");
+
+app.use(cors());
 
 let allowCrossDomain = function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
