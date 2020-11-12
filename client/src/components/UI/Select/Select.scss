@@ -9,6 +9,7 @@
     height: 0;
     transition: height 0.3s linear;
     &.expanded {
+      transition: height 0.3s linear;
       height: 330px;
       max-height: 330px;
       background: #fefefe;

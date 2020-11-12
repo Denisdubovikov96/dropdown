@@ -1,20 +1,28 @@
 import React, { useContext, useState } from "react";
+import classNames from "classnames";
 import DropDownRow from "./DropDownRow";
 import Input from "../UI/Input/Input";
 import { sortByKey } from "../../helperFunctions";
-import classNames from "classnames";
 import { DropDownContext } from "./DropDownContext";
 import { Loader, Message } from "../UI";
 
-export default function DropDownList({ headControllers }) {
+export default function DropDownList() {
   const [sortConfig, setSortConfig] = useState(null);
   const [query, setQuery] = useState("");
 
-  const { list, error, loading, togleSelect } = useContext(DropDownContext);
+  const {
+    list,
+    error,
+    loading,
+    togleSelect,
+    controllers,
+    uniqKey,
+    errorMessage,
+  } = useContext(DropDownContext);
 
   const keysArray = Object.keys(list);
 
-  const controllsTitle = headControllers.map((item) => {
+  const controllsTitle = controllers.map((item) => {
     const { sortable, key, title } = item;
     const upBtn = classNames("icon", "fas fa-caret-up", {
       active: sortConfig && "up" === sortConfig.type && key === sortConfig.key,
@@ -59,36 +67,42 @@ export default function DropDownList({ headControllers }) {
         />
       </div>
       <div className="drop-table">
-        <div className="row head">{controllsTitle}</div>
-        <div className="scroll">
-          {loading && !error ? (
-            <div className="centred-item">
-              <Loader />
-            </div>
-          ) : !loading && error ? (
-            <div className="centred-item">
-              <Message type={"warning"} text={"Could not load countries"} />
-            </div>
-          ) : (
-            keysArray
-              .filter((key) => {
-                return (
-                  list[key].country_name
-                    .toLowerCase()
-                    .indexOf(query.toLowerCase()) > -1
-                );
-              })
-              .map((key) => {
-                return (
-                  <DropDownRow
-                    key={list[key].country_code}
-                    onSelect={togleSelect}
-                    item={list[key]}
-                  />
-                );
-              })
-          )}
+        <div className="row head">
+          <div />
+          {controllsTitle}
         </div>
+        {loading ? (
+          <div className="centred-item">
+            <Loader />
+          </div>
+        ) : !loading && error ? (
+          <div className="centred-item">
+            <Message
+              type={"warning"}
+              text={errorMessage ? errorMessage : "Could not load content"}
+            />
+          </div>
+        ) : (
+          keysArray
+            .filter((key) => {
+              return (
+                list[key].country_name
+                  .toLowerCase()
+                  .indexOf(query.toLowerCase()) > -1
+              );
+            })
+            .map((key) => {
+              return (
+                <DropDownRow
+                  uniqKey={uniqKey}
+                  controllers={controllers}
+                  key={list[key][uniqKey]}
+                  onSelect={togleSelect}
+                  item={list[key]}
+                />
+              );
+            })
+        )}
       </div>
     </>
   );

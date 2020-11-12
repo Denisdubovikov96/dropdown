@@ -7,6 +7,7 @@
     font-weight: 300;
   }
   .content {
+    padding: 8px;
     background: #fefefe;
     display: flex;
     justify-content: flex-start;
@@ -52,20 +53,6 @@
     max-width: 300px;
   }
 }
-.scroll {
-  overflow: auto;
-  min-height: 250px;
-  max-height: 250px;
-  &::-webkit-scrollbar {
-    width: 8px;
-    background-color: #dce8ea;
-    border-radius: 4px;
-  }
-  &::-webkit-scrollbar-thumb {
-    border-radius: 4px;
-    background-color: #a0aabe;
-  }
-}
 .centred-item {
   width: 100%;
   min-height: 250px;
@@ -76,20 +63,34 @@
 .drop-table {
   border: none;
   width: 100%;
+  position: relative;
+  overflow: auto;
+  min-height: 290px;
+  max-height: 290px;
+  &::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+    background-color: #dce8ea;
+    border-radius: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #a0aabe;
+  }
   .row {
-    display: flex;
-    padding: 8px 12px;
+    display: grid;
+    grid-template-columns: 20px minmax(110px, 2.5fr) repeat(
+        4,
+        minmax(100px, 2fr)
+      );
+    padding: 8px 0 8px 12px;
+    min-width: min-content;
     border-bottom: 1px solid #a0aabe3d;
     & > .section {
       text-align: center;
       display: flex;
       align-items: center;
       justify-content: center;
-      &:nth-child(1),
-      &:nth-child(2) {
-        flex: 5;
-      }
-      flex: 4;
     }
     &:last-child {
       margin-bottom: -1px;
@@ -97,6 +98,9 @@
     &.head {
       font-size: 12px;
       font-weight: 500;
+      position: sticky;
+      top: 0;
+      background: #fff;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
       border-top: 1px solid #a0aabe3d;
       border-bottom: 1px solid #a0aabe3d;
@@ -133,22 +137,27 @@
     &.body {
       font-size: 12px;
       font-weight: 400;
+      align-items: center;
       .section {
         display: flex;
         align-items: center;
         justify-content: center;
-        &:nth-child(1) {
+        &:nth-child(2) {
           font-weight: 500;
           justify-content: flex-start;
         }
-        .item {
-          height: 100%;
-          display: flex;
-          text-align: left;
-          align-items: center;
-          margin-right: 15px;
-        }
       }
     }
+  }
+}
+.item {
+  height: 100%;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  margin-left: 8px;
+  flex: 1;
+  & > img {
+    margin-right: 10px;
   }
 }

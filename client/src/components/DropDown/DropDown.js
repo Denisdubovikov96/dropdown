@@ -1,6 +1,6 @@
 import React, { useEffect, useReducer } from "react";
 import "./DropDown.scss";
-import { Badge, Card, Select, Flag } from "../UI";
+import { Badge, Card, Select, Message } from "../UI";
 import DropDownList from "./DropDownList";
 import { DropDownContext } from "./DropDownContext";
 
@@ -40,20 +40,23 @@ const listReducer = (state, { type, payload }) => {
   }
 };
 
-export default function DropDown() {
+export default function DropDown({
+  controllers,
+  uniqKey,
+  SelectedComponent,
+  emtptyPlaceholder,
+  errorMessage,
+  selectLabel,
+  dropDownTitle,
+  infoLabel,
+  ...rest
+}) {
   const [state, dispatch] = useReducer(listReducer, {
     list: {},
     loading: false,
     error: null,
   });
-  const headControllers = [
-    { title: "Countries", key: "country_name", sortable: false },
-    { title: "Metric 1", key: "metric_1", sortable: true },
-    { title: "Metric 2", key: "metric_2", sortable: true },
-    { title: "Metric 3", key: "metric_3", sortable: true },
-    { title: "Metric 4", key: "metric_4", sortable: true },
-  ];
-
+  console.log(rest);
   useEffect(() => {
     fetchList();
   }, []);
@@ -65,12 +68,12 @@ export default function DropDown() {
       const data = await responce.json();
       const dataToState = Object.fromEntries(
         data.map((item) => {
-          return [item.country_code, { ...item, select: false }];
+          return [item[uniqKey], { ...item, ...item.metrics, select: false }];
         })
       );
-      setTimeout(() => {
-        dispatch({ type: "SUCCESS", payload: dataToState });
-      }, 3000);
+      // setTimeout(() => {
+      dispatch({ type: "SUCCESS", payload: dataToState });
+      // }, 3000);
     } catch (error) {
       dispatch({ type: "ERROR", payload: error });
     }
@@ -81,10 +84,19 @@ export default function DropDown() {
   };
 
   return (
-    <DropDownContext.Provider value={{ ...state, fetchList, togleSelect }}>
-      <Card title="Countries DropDown">
+    <DropDownContext.Provider
+      value={{
+        ...state,
+        fetchList,
+        togleSelect,
+        controllers,
+        uniqKey,
+        errorMessage,
+      }}
+    >
+      <Card title={dropDownTitle ? dropDownTitle : "Drop-down Title"}>
         <div className="info-block">
-          <span className="label">Selected:</span>
+          <span className="label">{infoLabel ? infoLabel : "Selected:"}</span>
           <div className="content">
             {Object.keys(state.list).filter((key) => state.list[key].selected)
               .length !== 0 ? (
@@ -93,26 +105,26 @@ export default function DropDown() {
                 .map((key) => {
                   return (
                     <Badge
-                      key={state.list[key].country_code}
-                      onClick={() => togleSelect(state.list[key].country_code)}
+                      key={state.list[key][uniqKey]}
+                      onClick={() => togleSelect(state.list[key][uniqKey])}
                     >
-                      <div className="country-badge">
-                        <Flag countryCode={state.list[key].country_code} />
-                        <span>{state.list[key].country_name}</span>
-                      </div>
+                      <SelectedComponent {...state.list[key]} />
                     </Badge>
                   );
                 })
             ) : (
-              <span className="placeholder">
-                Select the Countries from the list below
-              </span>
+              <Message
+                type={"placeholder"}
+                text={
+                  emtptyPlaceholder ? emtptyPlaceholder : "Nothing selected"
+                }
+              />
             )}
           </div>
         </div>
         <Select
-          label="Select country"
-          expandedElement={<DropDownList headControllers={headControllers} />}
+          label={selectLabel ? selectLabel : "Select"}
+          expandedElement={<DropDownList />}
         />
       </Card>
     </DropDownContext.Provider>
