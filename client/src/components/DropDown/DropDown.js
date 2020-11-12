@@ -60,7 +60,6 @@ export default function DropDown({
   useEffect(() => {
     fetchList();
   }, []);
-  //  sadasdasd
   const fetchList = async () => {
     dispatch({ type: "LOADING" });
     try {
