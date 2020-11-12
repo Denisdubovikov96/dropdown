@@ -1,6 +1,4 @@
-import React, { useEffect, useReducer, useState } from "react";
-// import classNames from "classnames";
-
+import React, { useEffect, useReducer } from "react";
 import "./DropDown.scss";
 import { Badge, Card, Select, Flag } from "../UI";
 import DropDownList from "./DropDownList";
@@ -56,6 +54,10 @@ export default function DropDown() {
     { title: "Metric 4", key: "metric_4", sortable: true },
   ];
 
+  useEffect(() => {
+    fetchList();
+  }, []);
+
   const fetchList = async () => {
     dispatch({ type: "LOADING" });
     try {
@@ -66,15 +68,13 @@ export default function DropDown() {
           return [item.country_code, { ...item, select: false }];
         })
       );
-      dispatch({ type: "SUCCESS", payload: dataToState });
+      setTimeout(() => {
+        dispatch({ type: "SUCCESS", payload: dataToState });
+      }, 3000);
     } catch (error) {
       dispatch({ type: "ERROR", payload: error });
     }
   };
-
-  useEffect(() => {
-    fetchList();
-  }, []);
 
   const togleSelect = (key, e) => {
     dispatch({ type: "TOGLE_SELECT", payload: key });

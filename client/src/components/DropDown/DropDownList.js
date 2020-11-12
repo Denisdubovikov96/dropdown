@@ -1,19 +1,16 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import DropDownRow from "./DropDownRow";
 import Input from "../UI/Input/Input";
 import { sortByKey } from "../../helperFunctions";
 import classNames from "classnames";
 import { DropDownContext } from "./DropDownContext";
-import { Loader } from "../UI";
+import { Loader, Message } from "../UI";
 
 export default function DropDownList({ headControllers }) {
   const [sortConfig, setSortConfig] = useState(null);
   const [query, setQuery] = useState("");
 
-  const { fetchList, list, error, loading, togleSelect } = useContext(
-    DropDownContext
-  );
-  console.log(query);
+  const { list, error, loading, togleSelect } = useContext(DropDownContext);
 
   const keysArray = Object.keys(list);
 
@@ -44,6 +41,7 @@ export default function DropDownList({ headControllers }) {
       </div>
     );
   });
+
   if (sortConfig) {
     keysArray.sort((a, b) =>
       sortByKey(a, b, sortConfig.key, sortConfig.type, list)
@@ -68,17 +66,27 @@ export default function DropDownList({ headControllers }) {
               <Loader />
             </div>
           ) : !loading && error ? (
-            <div>...Errror</div>
+            <div className="centred-item">
+              <Message type={"warning"} text={"Could not load countries"} />
+            </div>
           ) : (
-            keysArray.map((key) => {
-              return (
-                <DropDownRow
-                  key={list[key].country_code}
-                  onSelect={togleSelect}
-                  item={list[key]}
-                />
-              );
-            })
+            keysArray
+              .filter((key) => {
+                return (
+                  list[key].country_name
+                    .toLowerCase()
+                    .indexOf(query.toLowerCase()) > -1
+                );
+              })
+              .map((key) => {
+                return (
+                  <DropDownRow
+                    key={list[key].country_code}
+                    onSelect={togleSelect}
+                    item={list[key]}
+                  />
+                );
+              })
           )}
         </div>
       </div>

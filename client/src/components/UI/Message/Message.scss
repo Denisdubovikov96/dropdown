@@ -1,0 +1,20 @@
+.message {
+  margin: 10px;
+  font-size: 12px;
+}
+
+.placeholder {
+  font-weight: 300;
+  color: #0d182f;
+  opacity: 0.9;
+}
+
+.warning {
+  font-size: 14px;
+  color: #ef5228;
+  font-weight: 300;
+  i {
+    font-size: 1rem;
+    margin-right: 5px;
+  }
+}

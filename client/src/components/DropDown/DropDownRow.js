@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Flag } from "../UI";
 
 export default function DropDownItem({ onSelect, item }) {
