@@ -22,6 +22,9 @@ export default function DropDownList() {
 
   const keysArray = Object.keys(list);
 
+  const rowHead = classNames("row", `columns-${controllers.length}`, "head");
+  const rowBody = classNames("row", `columns-${controllers.length}`, "body");
+
   const controllsTitle = controllers.map((item) => {
     const { sortable, key, title } = item;
 
@@ -69,7 +72,7 @@ export default function DropDownList() {
         />
       </div>
       <div className="drop-table">
-        <div className="row head">
+        <div className={rowHead}>
           <div />
           {controllsTitle}
         </div>
@@ -95,6 +98,7 @@ export default function DropDownList() {
             .map((key) => {
               return (
                 <DropDownRow
+                  rowClassName={rowBody}
                   uniqKey={uniqKey}
                   controllers={controllers}
                   key={list[key][uniqKey]}

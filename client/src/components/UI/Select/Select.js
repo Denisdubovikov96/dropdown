@@ -18,7 +18,8 @@ export default function Select({ label, expandedElement }) {
         </span>
       </div>
       <div className={dropdownContentClass}>
-        {isExpanded ? expandedElement : null}
+        {expandedElement}
+        {/* {isExpanded ? expandedElement : null} */}
       </div>
     </div>
   );

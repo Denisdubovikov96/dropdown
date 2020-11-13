@@ -70,7 +70,6 @@ export default function DropDown({
           return [item[uniqKey], { ...item, select: false }];
         })
       );
-      console.log(dataToState);
       setTimeout(() => {
         dispatch({ type: "SUCCESS", payload: dataToState });
       }, 3000);

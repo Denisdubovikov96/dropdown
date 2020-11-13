@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React from "react";
 import DropDown from "./components/DropDown";
 import { Flag } from "./components/UI";
 
@@ -66,7 +66,7 @@ function App() {
       {
         title: "Имя",
         key: "first_name",
-        sortable: false,
+        sortable: true,
         Component: null,
       },
       {
@@ -129,10 +129,12 @@ function App() {
 
   return (
     <div style={{ margin: "20px auto" }}>
-      <div style={{ margin: "20px 0", zIndex: 20000, position: "relative" }}>
+      <div style={{ margin: "20px 0", zIndex: 2, position: "relative" }}>
         <DropDown {...config} />
       </div>
-      <div style={{ margin: "100px 0" }}>
+      <div
+      //  style={{ margin: "100px 0" }}
+      >
         <DropDown {...config2} />
       </div>
     </div>
