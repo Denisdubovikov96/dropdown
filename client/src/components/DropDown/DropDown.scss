@@ -79,6 +79,7 @@
   }
   .row {
     display: grid;
+
     &.columns-1 {
       grid-template-columns: 20px minmax(110px, 2.5fr);
     }
@@ -165,6 +166,7 @@
       }
     }
     &.body {
+      cursor: pointer;
       font-size: 12px;
       font-weight: 400;
       align-items: center;

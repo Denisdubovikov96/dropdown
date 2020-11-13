@@ -18,9 +18,16 @@ export default function DropDownList() {
     controllers,
     uniqKey,
     errorMessage,
+    searchKey,
   } = useContext(DropDownContext);
 
-  const keysArray = Object.keys(list);
+  const keysArray = searchKey
+    ? Object.keys(list).filter((key) => {
+        return (
+          list[key][searchKey].toLowerCase().indexOf(query.toLowerCase()) > -1
+        );
+      })
+    : Object.keys(list);
 
   const rowHead = classNames("row", `columns-${controllers.length}`, "head");
   const rowBody = classNames("row", `columns-${controllers.length}`, "body");
@@ -62,15 +69,17 @@ export default function DropDownList() {
   }
   return (
     <>
-      <div className="search-pannel">
-        <Input
-          placeholder={"Search"}
-          value={query}
-          onChange={(e) => {
-            setQuery(e.target.value);
-          }}
-        />
-      </div>
+      {searchKey ? (
+        <div className="search-pannel">
+          <Input
+            placeholder={"Search"}
+            value={query}
+            onChange={(e) => {
+              setQuery(e.target.value);
+            }}
+          />
+        </div>
+      ) : null}
       <div className="drop-table">
         <div className={rowHead}>
           <div />
@@ -88,25 +97,18 @@ export default function DropDownList() {
             />
           </div>
         ) : (
-          keysArray
-            // .filter((key) => {
-            //   return (
-            //     list[key][uniqKey].toLowerCase().indexOf(query.toLowerCase()) >
-            //     -1
-            //   );
-            // })
-            .map((key) => {
-              return (
-                <DropDownRow
-                  rowClassName={rowBody}
-                  uniqKey={uniqKey}
-                  controllers={controllers}
-                  key={list[key][uniqKey]}
-                  onSelect={togleSelect}
-                  item={list[key]}
-                />
-              );
-            })
+          keysArray.map((key) => {
+            return (
+              <DropDownRow
+                rowClassName={rowBody}
+                uniqKey={uniqKey}
+                controllers={controllers}
+                key={list[key][uniqKey]}
+                onSelect={togleSelect}
+                item={list[key]}
+              />
+            );
+          })
         )}
       </div>
     </>

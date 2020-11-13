@@ -55,6 +55,7 @@ function App() {
 
   const config2 = {
     uniqKey: "id",
+    // searchKey: "first_name",
     getClearData: getDataAlternative,
     emtptyPlaceholder: "не выбрали человека",
     errorMessage: "Что то пошло не так",
@@ -86,6 +87,7 @@ function App() {
 
   const config = {
     uniqKey: "country_code",
+    searchKey: "country_name",
     getClearData: getDataCounries,
     emtptyPlaceholder: "Ниче не выбрано",
     errorMessage: "Что то пошло не так",

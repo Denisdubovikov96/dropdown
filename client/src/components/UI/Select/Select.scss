@@ -8,12 +8,11 @@
     width: 100%;
     height: 0;
     background: #fff;
-
     transition: height 0.3s linear;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     &.expanded {
       transition: height 0.3s linear;
-      height: 330px;
+      height: min-content;
       max-height: 330px;
       background: #fefefe;
       border-top: none;

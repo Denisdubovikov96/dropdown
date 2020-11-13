@@ -16,12 +16,13 @@ const listReducer = (state, { type, payload }) => {
         ...state,
         loading: false,
         list: payload,
+        error: false,
       };
     case "ERROR":
       return {
         ...state,
         loading: false,
-        error: payload,
+        error: true,
       };
     case "TOGLE_SELECT":
       return {
@@ -50,6 +51,7 @@ export default function DropDown({
   dropDownTitle,
   infoLabel,
   getClearData,
+  searchKey,
   ...rest
 }) {
   const [state, dispatch] = useReducer(listReducer, {
@@ -57,7 +59,7 @@ export default function DropDown({
     loading: false,
     error: null,
   });
-  // console.log(rest);
+
   useEffect(() => {
     fetchList();
   }, []);
@@ -86,11 +88,12 @@ export default function DropDown({
     <DropDownContext.Provider
       value={{
         ...state,
-        fetchList,
+        // fetchList,
         togleSelect,
         controllers,
         uniqKey,
         errorMessage,
+        searchKey,
       }}
     >
       <Card title={dropDownTitle ? dropDownTitle : "Drop-down Title"}>
