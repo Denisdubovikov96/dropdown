@@ -49,6 +49,7 @@ export default function DropDown({
   selectLabel,
   dropDownTitle,
   infoLabel,
+  getClearData,
   ...rest
 }) {
   const [state, dispatch] = useReducer(listReducer, {
@@ -56,23 +57,23 @@ export default function DropDown({
     loading: false,
     error: null,
   });
-  console.log(rest);
+  // console.log(rest);
   useEffect(() => {
     fetchList();
   }, []);
   const fetchList = async () => {
     dispatch({ type: "LOADING" });
     try {
-      const responce = await fetch("http://localhost:5000/");
-      const data = await responce.json();
+      const data = await getClearData();
       const dataToState = Object.fromEntries(
         data.map((item) => {
-          return [item[uniqKey], { ...item, ...item.metrics, select: false }];
+          return [item[uniqKey], { ...item, select: false }];
         })
       );
-      // setTimeout(() => {
-      dispatch({ type: "SUCCESS", payload: dataToState });
-      // }, 3000);
+      console.log(dataToState);
+      setTimeout(() => {
+        dispatch({ type: "SUCCESS", payload: dataToState });
+      }, 3000);
     } catch (error) {
       dispatch({ type: "ERROR", payload: error });
     }

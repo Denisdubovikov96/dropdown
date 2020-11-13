@@ -24,6 +24,7 @@ export default function DropDownList() {
 
   const controllsTitle = controllers.map((item) => {
     const { sortable, key, title } = item;
+
     const upBtn = classNames("icon", "fas fa-caret-up", {
       active: sortConfig && "up" === sortConfig.type && key === sortConfig.key,
     });
@@ -31,6 +32,7 @@ export default function DropDownList() {
       active:
         sortConfig && "down" === sortConfig.type && key === sortConfig.key,
     });
+
     return (
       <div className="section" key={key}>
         {sortable ? (
@@ -84,13 +86,12 @@ export default function DropDownList() {
           </div>
         ) : (
           keysArray
-            .filter((key) => {
-              return (
-                list[key].country_name
-                  .toLowerCase()
-                  .indexOf(query.toLowerCase()) > -1
-              );
-            })
+            // .filter((key) => {
+            //   return (
+            //     list[key][uniqKey].toLowerCase().indexOf(query.toLowerCase()) >
+            //     -1
+            //   );
+            // })
             .map((key) => {
               return (
                 <DropDownRow
