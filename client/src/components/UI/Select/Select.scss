@@ -6,15 +6,15 @@
     left: 0;
     top: 100%;
     width: 100%;
-    transform: scaleY(0);
-    transform-origin: 50% 0;
+    transform: scale(0);
+    transform-origin: 0% 0%;
     perspective: 330px;
     max-height: 330px;
     background: #fff;
     transition: transform 0.3s linear;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     &.expanded {
-      transform: scaleY(1);
+      transform: scale(1);
       height: min-content;
       background: #fefefe;
       border-top: none;

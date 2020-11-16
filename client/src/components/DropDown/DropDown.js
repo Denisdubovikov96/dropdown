@@ -71,9 +71,9 @@ export default function DropDown({
           return [item[uniqKey], { ...item, select: false }];
         })
       );
-      setTimeout(() => {
-        dispatch({ type: "SUCCESS", payload: dataToState });
-      }, 3000);
+      // setTimeout(() => {
+      dispatch({ type: "SUCCESS", payload: dataToState });
+      // }, 3000);
     } catch (error) {
       dispatch({ type: "ERROR", payload: error });
     }
