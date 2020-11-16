@@ -6,14 +6,16 @@
     left: 0;
     top: 100%;
     width: 100%;
-    height: 0;
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+    perspective: 330px;
+    max-height: 330px;
     background: #fff;
-    transition: height 0.3s linear;
+    transition: transform 0.3s linear;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     &.expanded {
-      transition: height 0.3s linear;
+      transform: scaleY(1);
       height: min-content;
-      max-height: 330px;
       background: #fefefe;
       border-top: none;
       border-left: 1px solid #a0aabe3d;

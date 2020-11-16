@@ -29,7 +29,9 @@ export default function Select({ label, expandedElement }) {
           <i className="fas fa-caret-down" />
         </span>
       </div>
-      <div className={dropdownContentClass}>{expandedElement}</div>
+      <div className={dropdownContentClass}>
+        {expandedElement ? expandedElement : null}
+      </div>
     </div>
   );
 }

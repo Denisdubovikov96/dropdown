@@ -52,11 +52,10 @@ export default function DropDown({
   infoLabel,
   getClearData,
   searchKey,
-  ...rest
 }) {
   const [state, dispatch] = useReducer(listReducer, {
     list: {},
-    loading: false,
+    loading: true,
     error: null,
   });
 
@@ -88,7 +87,6 @@ export default function DropDown({
     <DropDownContext.Provider
       value={{
         ...state,
-        // fetchList,
         togleSelect,
         controllers,
         uniqKey,
